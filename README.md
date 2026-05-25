@@ -69,26 +69,28 @@ The datasets are publicly available from OpenML using the OpenML IDs saved in:
 `results/openml/bssmote_update/dataset_metadata_table1.csv`
 ### Dataset Summary
 
+The benchmark datasets used in this repository are grouped by feature-count interval and imbalance-ratio (IR) category. The IR values are computed from the actual majority- and minority-class counts used in the experiments.
+
 | Dataset | OpenML ID | Instances | Features | IR | IR Category | Feature Interval | Majority Count | Minority Count |
 |---|---:|---:|---:|---:|---|---|---:|---:|
 | Blood-transfusion | [1464](https://www.openml.org/d/1464) | 748 | 4 | 3.2022 | Low | Features <= 10 | 570 | 178 |
 | Haberman | [43](https://www.openml.org/d/43) | 306 | 3 | 2.7778 | Low | Features <= 10 | 225 | 81 |
-| Mammography | [310](https://www.openml.org/d/310) | 11,183 | 6 | 42.0115 | Extreme | Features <= 10 | 10,923 | 260 |
-| Pulsar (HTRU2) | [45558](https://www.openml.org/d/45558) | 17,898 | 8 | 9.9201 | Medium | Features <= 10 | 16,259 | 1,639 |
+| Mammography | [310](https://www.openml.org/d/310) | 11183 | 6 | 42.0115 | Extreme | Features <= 10 | 10923 | 260 |
+| Pulsar (HTRU2) | [45558](https://www.openml.org/d/45558) | 17898 | 8 | 9.9201 | Medium | Features <= 10 | 16259 | 1639 |
 | Wholesale-customers | [1511](https://www.openml.org/d/1511) | 440 | 8 | 2.0986 | Low | Features <= 10 | 298 | 142 |
-| Wilt | [40983](https://www.openml.org/d/40983) | 4,839 | 5 | 17.5402 | Medium | Features <= 10 | 4,578 | 261 |
-| CPU small | [735](https://www.openml.org/d/735) | 8,192 | 12 | 2.3072 | Low | 10 < Features <= 30 | 5,715 | 2,477 |
-| Diabetes (DIS) | [40713](https://www.openml.org/d/40713) | 3,772 | 29 | 64.0345 | Extreme | 10 < Features <= 30 | 3,714 | 58 |
-| Elevators | [846](https://www.openml.org/d/846) | 16,599 | 18 | 2.2357 | Low | 10 < Features <= 30 | 11,469 | 5,130 |
+| Wilt | [40983](https://www.openml.org/d/40983) | 4839 | 5 | 17.5402 | Medium | Features <= 10 | 4578 | 261 |
+| CPU small | [735](https://www.openml.org/d/735) | 8192 | 12 | 2.3072 | Low | 10 < Features <= 30 | 5715 | 2477 |
+| Diabetes (DIS) | [40713](https://www.openml.org/d/40713) | 3772 | 29 | 64.0345 | Extreme | 10 < Features <= 30 | 3714 | 58 |
+| Elevators | [846](https://www.openml.org/d/846) | 16599 | 18 | 2.2357 | Low | 10 < Features <= 30 | 11469 | 5130 |
 | Vehicle | [994](https://www.openml.org/d/994) | 846 | 18 | 2.8807 | Low | 10 < Features <= 30 | 628 | 218 |
-| Mfeat-fourier | [971](https://www.openml.org/d/971) | 2,000 | 76 | 9.0000 | Medium | Features > 30 | 1,800 | 200 |
-| Mfeat-karhunen | [1020](https://www.openml.org/d/1020) | 2,000 | 64 | 9.0000 | Medium | Features > 30 | 1,800 | 200 |
-| Optdigits | [980](https://www.openml.org/d/980) | 5,620 | 64 | 8.8252 | Medium | Features > 30 | 5,048 | 572 |
-| Satellite | [40900](https://www.openml.org/d/40900) | 5,100 | 36 | 67.0000 | Extreme | Features > 30 | 5,025 | 75 |
+| Mfeat-fourier | [971](https://www.openml.org/d/971) | 2000 | 76 | 9.0 | Medium | Features > 30 | 1800 | 200 |
+| Mfeat-karhunen | [1020](https://www.openml.org/d/1020) | 2000 | 64 | 9.0 | Medium | Features > 30 | 1800 | 200 |
+| Optdigits | [980](https://www.openml.org/d/980) | 5620 | 64 | 8.8252 | Medium | Features > 30 | 5048 | 572 |
+| Satellite | [40900](https://www.openml.org/d/40900) | 5100 | 36 | 67.0 | Extreme | Features > 30 | 5025 | 75 |
 
 ### Dataset Grouping Criteria
 
-The datasets are grouped using the number of input features:
+The feature intervals are defined as follows:
 
 | Feature Interval | Definition |
 |---|---|
@@ -107,9 +109,10 @@ The imbalance-ratio categories are defined as follows:
 ### Notes
 
 - All datasets are publicly available from OpenML.
-- OpenML IDs in the table are clickable links to the original dataset sources.
+- OpenML IDs in the table link to the original dataset pages.
 - IR denotes the imbalance ratio between the majority and minority classes.
-- Majority Count and Minority Count refer to the class distribution used for computing IR.
+- Majority Count and Minority Count are the actual class counts used to compute IR.
+- Feature Interval is defined using the number of input features.
 - These datasets are used for evaluating BSSMOTE, its ablation variants, traditional oversampling baselines, and deep tabular oversampling methods under a fold-wise preprocessing protocol.
 
 ## Code availability
