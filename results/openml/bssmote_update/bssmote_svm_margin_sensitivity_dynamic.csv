@@ -1,37 +1,37 @@
 Dataset,Dataset_File,OpenML_ID,Features,IR,IR_Category,Feature_Interval,Feature_Interval_Order,SVM_Kernel,SVM_Margin,Precision,Recall,AUC_PR,GMean,Generated_Samples,Synthetic_Added,Majority_Removed,Net_Row_Change,Resample_Time_s,Time_per_Instance_ms
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.25,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0445,2.1467
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.5,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0495,2.402
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.75,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0406,1.9599
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,1.0,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0397,1.9161
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,1.25,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0428,2.0614
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,1.5,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0414,1.9956
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.25,0.3398,0.416,0.2979,0.5492,6.6,6.6,120.2,-113.6,0.0464,8.6904
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.5,0.3392,0.416,0.2964,0.5474,12.8,12.8,120.2,-107.4,0.0467,3.923
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.75,0.3143,0.3994,0.2807,0.5322,19.8,19.8,120.2,-100.4,0.0547,2.8052
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,1.0,0.3333,0.4159,0.2968,0.5481,25.0,25.0,120.2,-95.2,0.0527,2.2137
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,1.25,0.3239,0.4046,0.2918,0.5405,29.0,29.0,120.2,-91.2,0.0523,1.9415
-Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,1.5,0.3544,0.4386,0.3107,0.5689,33.8,33.8,120.2,-86.4,0.0483,1.5255
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.25,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.9332,6.1207
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.5,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.3442,2.2495
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.75,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.3344,2.1856
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,1.0,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.3555,2.3223
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,1.25,0.716,0.8963,0.673,0.8705,153.0,153.0,1029.6,-876.6,0.6351,4.1765
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,1.5,0.7124,0.8959,0.6697,0.8689,153.0,153.0,1029.6,-876.6,0.6441,4.1724
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.25,0.7208,0.8967,0.6775,0.8726,70.2,70.2,1029.6,-959.4,0.5928,8.5407
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.5,0.7084,0.8983,0.667,0.8683,138.0,138.0,1029.6,-891.6,0.6235,4.5731
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.75,0.713,0.8987,0.6713,0.8703,201.8,201.8,1029.6,-827.8,1.2724,6.2825
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,1.0,0.7187,0.8979,0.6762,0.8722,267.2,267.2,1029.6,-762.4,0.6187,2.324
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,1.25,0.7057,0.8902,0.6614,0.8642,343.4,343.4,1029.6,-686.2,0.6107,1.781
-CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,1.5,0.7017,0.8894,0.6577,0.8622,404.8,404.8,1029.6,-624.8,1.1836,2.9046
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.25,0.9385,0.98,0.9221,0.9863,30.2,30.2,137.8,-107.6,0.1557,6.7877
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.5,0.9291,0.97,0.9044,0.9807,64.8,64.8,137.8,-73.0,0.1602,3.7265
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.75,0.9225,0.98,0.9058,0.9851,103.4,103.4,137.8,-34.4,0.1476,2.0381
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,1.0,0.9329,0.965,0.904,0.9783,134.8,134.8,137.8,-3.0,0.1499,1.6243
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,1.25,0.9329,0.965,0.904,0.9783,164.2,164.2,137.8,26.4,0.4276,7.604
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,1.5,0.9291,0.965,0.8997,0.978,200.2,200.2,137.8,62.4,0.5121,2.5706
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.25,0.9288,0.965,0.9004,0.9782,33.8,33.8,137.8,-104.0,0.1816,6.7103
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.5,0.9519,0.975,0.9304,0.9846,58.6,58.6,137.8,-79.2,0.1793,2.6866
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.75,0.9249,0.96,0.8919,0.9754,72.0,72.0,137.8,-65.8,0.1699,3.9639
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,1.0,0.9467,0.97,0.9212,0.9818,111.0,111.0,137.8,-26.8,0.1667,1.6706
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,1.25,0.947,0.975,0.9257,0.9844,151.4,151.4,137.8,13.6,0.1902,1.2302
-Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,1.5,0.9337,0.96,0.9002,0.9759,189.8,189.8,137.8,52.0,0.8069,4.1121
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.25,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.5018,24.4475
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.5,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.2202,11.0474
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.75,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0443,2.1515
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,1.0,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0395,1.9001
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,1.25,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0427,2.0627
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,1.5,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0393,1.8949
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.25,0.3398,0.416,0.2979,0.5492,6.6,6.6,120.2,-113.6,0.0517,9.1987
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.5,0.3392,0.416,0.2964,0.5474,12.8,12.8,120.2,-107.4,0.0457,3.8442
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.75,0.3143,0.3994,0.2807,0.5322,19.8,19.8,120.2,-100.4,0.0483,2.5813
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,1.0,0.3333,0.4159,0.2968,0.5481,25.0,25.0,120.2,-95.2,0.0533,2.326
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,1.25,0.3239,0.4046,0.2918,0.5405,29.0,29.0,120.2,-91.2,0.053,1.9158
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,1.5,0.3544,0.4386,0.3107,0.5689,33.8,33.8,120.2,-86.4,0.0465,1.4609
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.25,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.32,2.0902
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.5,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.3108,2.0317
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.75,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.4006,2.626
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,1.0,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.8987,5.8304
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,1.25,0.716,0.8963,0.673,0.8705,153.0,153.0,1029.6,-876.6,0.3203,2.093
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,1.5,0.7124,0.8959,0.6697,0.8689,153.0,153.0,1029.6,-876.6,0.3146,2.0551
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.25,0.7208,0.8967,0.6775,0.8726,70.2,70.2,1029.6,-959.4,0.6345,9.15
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.5,0.7084,0.8983,0.667,0.8683,138.0,138.0,1029.6,-891.6,1.187,8.4891
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.75,0.713,0.8987,0.6713,0.8703,201.8,201.8,1029.6,-827.8,0.6007,2.9926
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,1.0,0.7187,0.8979,0.6762,0.8722,267.2,267.2,1029.6,-762.4,0.5843,2.1962
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,1.25,0.7057,0.8902,0.6614,0.8642,343.4,343.4,1029.6,-686.2,1.4082,3.952
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,1.5,0.7017,0.8894,0.6577,0.8622,404.8,404.8,1029.6,-624.8,0.6842,1.6949
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.25,0.9385,0.98,0.9221,0.9863,30.2,30.2,137.8,-107.6,0.1475,7.3063
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.5,0.9291,0.97,0.9044,0.9807,64.8,64.8,137.8,-73.0,0.1593,4.2979
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.75,0.9225,0.98,0.9058,0.9851,103.4,103.4,137.8,-34.4,0.8637,13.7598
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,1.0,0.9329,0.965,0.904,0.9783,134.8,134.8,137.8,-3.0,0.142,1.5623
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,1.25,0.9329,0.965,0.904,0.9783,164.2,164.2,137.8,26.4,0.1589,1.4136
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,1.5,0.9291,0.965,0.8997,0.978,200.2,200.2,137.8,62.4,0.1629,1.3701
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.25,0.9288,0.965,0.9004,0.9782,33.8,33.8,137.8,-104.0,0.1697,6.1196
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.5,0.9519,0.975,0.9304,0.9846,58.6,58.6,137.8,-79.2,0.1641,2.4523
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.75,0.9249,0.96,0.8919,0.9754,72.0,72.0,137.8,-65.8,0.172,4.2657
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,1.0,0.9467,0.97,0.9212,0.9818,111.0,111.0,137.8,-26.8,0.7799,8.79
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,1.25,0.947,0.975,0.9257,0.9844,151.4,151.4,137.8,13.6,0.1823,1.2201
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,1.5,0.9337,0.96,0.9002,0.9759,189.8,189.8,137.8,52.0,0.1781,0.8096
