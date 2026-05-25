@@ -1,6 +1,6 @@
 # BSSMOTE OpenML Reproducible Experiments
 
-This repository contains the reproducible code, fold-wise preprocessing, BSSMOTE ablation variants, benchmark oversampling results, clean metric reports, statistical analyses, deep tabular feature-interval comparisons, logs, selected figures, and hyperparameter configurations.
+This repository contains the reproducible code, fold-wise preprocessing, BSSMOTE ablation variants, benchmark oversampling results, metric reports, statistical analyses, deep tabular feature-interval comparisons, logs, selected figures, and hyperparameter configurations.
 
 ## Main experiment
 
