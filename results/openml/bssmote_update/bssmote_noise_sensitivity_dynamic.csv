@@ -1,0 +1,25 @@
+Dataset,Dataset_File,OpenML_ID,Features,IR,IR_Category,Feature_Interval,Feature_Interval_Order,SVM_Kernel,Noise_Scale,Precision,Recall,AUC_PR,GMean,Generated_Samples,Synthetic_Added,Majority_Removed,Net_Row_Change,Resample_Time_s,Time_per_Instance_ms
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.0,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.38,18.3071
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.01,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0392,1.893
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.05,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0392,1.8943
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,linear,0.1,0.3094,0.3881,0.2765,0.5267,20.8,20.8,120.2,-99.4,0.0397,1.9168
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.0,0.312,0.399,0.2838,0.5313,19.8,19.8,120.2,-100.4,0.0466,2.4359
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.01,0.3076,0.3879,0.2769,0.5239,19.8,19.8,120.2,-100.4,0.0472,2.4998
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.05,0.3143,0.3994,0.2807,0.5322,19.8,19.8,120.2,-100.4,0.047,2.458
+Blood-transfusion,blood-transfusion-service-center,1464,4,3.2022,Low,Features <= 10,1,rbf,0.1,0.3161,0.3994,0.2813,0.5327,19.8,19.8,120.2,-100.4,0.0475,2.4918
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.0,0.7156,0.8962,0.6727,0.8703,153.0,153.0,1029.6,-876.6,0.3172,2.0742
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.01,0.7156,0.8962,0.6727,0.8703,153.0,153.0,1029.6,-876.6,0.3152,2.0613
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.05,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.3063,2.0019
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,linear,0.1,0.7155,0.8958,0.6725,0.8701,153.0,153.0,1029.6,-876.6,0.8695,5.6948
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.0,0.7169,0.8934,0.6728,0.8698,201.8,201.8,1029.6,-827.8,0.5797,2.8911
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.01,0.7156,0.8995,0.6741,0.8717,201.8,201.8,1029.6,-827.8,0.58,2.89
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.05,0.713,0.8987,0.6713,0.8703,201.8,201.8,1029.6,-827.8,0.6738,3.4172
+CPU small,cpu_small,735,12,2.3072,Low,10 < Features <= 30,2,rbf,0.1,0.7027,0.9027,0.6637,0.8678,201.8,201.8,1029.6,-827.8,1.0656,5.365
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.0,0.9225,0.98,0.9058,0.9851,103.4,103.4,137.8,-34.4,0.1412,1.9581
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.01,0.9181,0.98,0.9013,0.9849,103.4,103.4,137.8,-34.4,0.1635,2.1066
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.05,0.9225,0.98,0.9058,0.9851,103.4,103.4,137.8,-34.4,0.157,2.3657
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,linear,0.1,0.9225,0.98,0.9058,0.9851,103.4,103.4,137.8,-34.4,0.1409,1.971
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.0,0.9337,0.965,0.9046,0.9784,72.0,72.0,137.8,-65.8,0.7076,15.0494
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.01,0.9337,0.965,0.9046,0.9784,72.0,72.0,137.8,-65.8,0.2124,5.2307
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.05,0.9249,0.96,0.8919,0.9754,72.0,72.0,137.8,-65.8,0.168,3.8291
+Mfeat-fourier,mfeat-fourier,971,76,9.0,Medium,Features > 30,3,rbf,0.1,0.9293,0.96,0.8959,0.9756,72.0,72.0,137.8,-65.8,0.1816,4.4763

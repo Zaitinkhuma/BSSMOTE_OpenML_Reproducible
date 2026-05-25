@@ -1,0 +1,13 @@
+Model,Metric,Best_Method,Variant,SVM,Dataset,Score
+DT,AUC_PR,BSSMOTE w/o SVM,w/o SVM,--,Mfeat-fourier,0.9339
+DT,GMean,BSSMOTE w/o SVM,w/o SVM,--,Mfeat-fourier,0.9891
+DT,Precision,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,Mfeat-fourier,0.9604
+DT,Recall,BSSMOTE w/o SVM,w/o SVM,--,Mfeat-fourier,0.985
+LightGBM,AUC_PR,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,Mfeat-fourier,0.9992
+LightGBM,GMean,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,Mfeat-fourier,0.9921
+LightGBM,Precision,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,Mfeat-fourier,1.0
+LightGBM,Recall,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,Mfeat-fourier,0.985
+RF,AUC_PR,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,Mfeat-fourier,0.9997
+RF,GMean,Full BSSMOTE RBF,Full BSSMOTE,RBF,Mfeat-fourier,0.9874
+RF,Precision,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,Mfeat-fourier,1.0
+RF,Recall,Full BSSMOTE RBF,Full BSSMOTE,RBF,Mfeat-fourier,0.975

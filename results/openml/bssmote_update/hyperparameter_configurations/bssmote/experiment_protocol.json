@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "n_splits": 5,
+  "target_protocol": "existing binary targets: minority=1 majority=0; multiclass benchmark sources: dataset-specific minority-vs-rest before CV",
+  "ir_protocol": "IR computed after final target construction; no expected-IR forcing",
+  "preprocessing": "MinMaxScaler and OneHotEncoder(handle_unknown='ignore') fitted only on each training fold",
+  "oversampling": "applied only to preprocessed training fold",
+  "deep_tabular_baselines": "CTGAN and TVAE restricted to Features > 30 and excluded from statistics/CD analyses",
+  "results_dir": "/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update"
+}

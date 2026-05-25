@@ -1,0 +1,15 @@
+Dataset,OpenML_ID,Instances,Features,IR,IR_Category,Feature_Interval,Majority_Count,Minority_Count
+Blood-transfusion,1464,748,4,3.2022,Low,Features <= 10,570,178
+Haberman,43,306,3,2.7778,Low,Features <= 10,225,81
+Mammography,310,11183,6,42.0115,Extreme,Features <= 10,10923,260
+Pulsar (HTRU2),45558,17898,8,9.9201,Medium,Features <= 10,16259,1639
+Wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,298,142
+Wilt,40983,4839,5,17.5402,Medium,Features <= 10,4578,261
+CPU small,735,8192,12,2.3072,Low,10 < Features <= 30,5715,2477
+Diabetes (DIS),40713,3772,29,64.0345,Extreme,10 < Features <= 30,3714,58
+Elevators,846,16599,18,2.2357,Low,10 < Features <= 30,11469,5130
+Vehicle,994,846,18,2.8807,Low,10 < Features <= 30,628,218
+Mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,1800,200
+Mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,1800,200
+Optdigits,980,5620,64,8.8252,Medium,Features > 30,5048,572
+Satellite,40900,5100,36,67.0,Extreme,Features > 30,5025,75

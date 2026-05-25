@@ -1,0 +1,13 @@
+Model,Metric,N_Datasets,N_Methods,Friedman_Chi2,p_value,Status
+DT,Precision,14,13,96.6688,2.494990e-15,success
+DT,Recall,14,13,64.933,2.805180e-09,success
+DT,AUC_PR,14,13,71.6892,1.545086e-10,success
+DT,GMean,14,13,34.6151,5.391532e-04,success
+RF,Precision,14,13,71.3325,1.802636e-10,success
+RF,Recall,14,13,81.3444,2.285342e-12,success
+RF,AUC_PR,14,13,34.6559,5.311801e-04,success
+RF,GMean,14,13,57.8908,5.455015e-08,success
+LightGBM,Precision,14,13,68.3335,6.557702e-10,success
+LightGBM,Recall,14,13,87.4438,1.539943e-13,success
+LightGBM,AUC_PR,14,13,47.0979,4.483084e-06,success
+LightGBM,GMean,14,13,43.0401,2.222925e-05,success

@@ -1,0 +1,911 @@
+Dataset,Dataset_File,OpenML_ID,Instances,Features,IR,IR_Category,Feature_Interval,Feature_Interval_Order,Fold,Oversampler,Variant,SVM,Sampler_Status,Sampler_Detail,Majority_Before,Minority_Before,Majority_After,Minority_After,Generated_Samples,Synthetic_Added,Majority_Removed,Net_Row_Change,Resample_Time_s,Time_per_Generated_ms,Time_per_Instance_ms
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,None,None,--,not_applied,baseline_no_resampling,180,64,180,64,0,0,0,0,0.0038,,
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,SMOTE,Baseline,--,success,fit_resample,180,64,180,180,116,116,0,116,0.005,0.0435,0.0435
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,ADASYN,Baseline,--,success,fit_resample,180,64,180,165,101,101,0,101,0.0067,0.066,0.066
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,BorderlineSMOTE,Baseline,--,success,fit_resample,180,64,180,180,116,116,0,116,0.0067,0.0577,0.0577
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",180,64,180,180,116,116,0,116,0.0675,0.5816,0.5816
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,SVMSMOTE,Baseline,--,success,fit_resample,180,64,180,180,116,116,0,116,0.0247,0.2133,0.2133
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,180,64,145,73,9,9,35,-26,0.3483,38.6968,38.6968
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,180,64,145,75,11,11,35,-24,0.2916,26.5125,26.5125
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,180,64,180,65,1,1,0,1,0.0111,11.1237,11.1237
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,180,64,180,66,2,2,0,2,0.0335,16.7359,16.7359
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,180,64,145,71,7,7,35,-28,0.1363,19.4705,19.4705
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,180,64,145,71,7,7,35,-28,0.079,11.2794,11.2794
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,180,64,147,145,81,81,33,48,0.2106,2.6003,2.6003
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,None,None,--,not_applied,baseline_no_resampling,180,65,180,65,0,0,0,0,0.0017,,
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,SMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0046,0.0401,0.0401
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,ADASYN,Baseline,--,success,fit_resample,180,65,180,167,102,102,0,102,0.008,0.0783,0.0783
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,BorderlineSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0181,0.1575,0.1575
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",180,65,180,180,115,115,0,115,0.3589,3.121,3.121
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,SVMSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0152,0.1321,0.1321
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,180,65,146,74,9,9,34,-25,0.1842,20.4714,20.4714
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,180,65,146,73,8,8,34,-26,0.1823,22.792,22.792
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,180,65,180,66,1,1,0,1,0.0113,11.2774,11.2774
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,180,65,180,71,6,6,0,6,0.0309,5.1425,5.1425
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,180,65,146,66,1,1,34,-33,0.0888,88.8338,88.8338
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,180,65,146,71,6,6,34,-28,0.1784,29.7326,29.7326
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,180,65,149,146,81,81,31,50,0.0578,0.7135,0.7135
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,None,None,--,not_applied,baseline_no_resampling,180,65,180,65,0,0,0,0,0.0016,,
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,SMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0067,0.0581,0.0581
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,ADASYN,Baseline,--,success,fit_resample,180,65,180,165,100,100,0,100,0.006,0.0604,0.0604
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,BorderlineSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0061,0.0533,0.0533
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",180,65,180,180,115,115,0,115,0.249,2.1651,2.1651
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,SVMSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0801,0.6965,0.6965
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,180,65,136,73,8,8,44,-36,0.1273,15.9136,15.9136
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,180,65,136,74,9,9,44,-35,0.1373,15.261,15.261
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,180,65,180,71,6,6,0,6,0.0114,1.8958,1.8958
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,180,65,180,76,11,11,0,11,0.0142,1.291,1.291
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,180,65,136,72,7,7,44,-37,0.0479,6.843,6.843
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,180,65,136,73,8,8,44,-36,0.0504,6.3019,6.3019
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,180,65,143,136,71,71,37,34,0.0511,0.7193,0.7193
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,None,None,--,not_applied,baseline_no_resampling,180,65,180,65,0,0,0,0,0.0017,,
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,SMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0051,0.0446,0.0446
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,ADASYN,Baseline,--,success,fit_resample,180,65,195,180,115,115,0,130,0.0074,0.0643,0.0643
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,BorderlineSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0063,0.0547,0.0547
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",180,65,180,180,115,115,0,115,0.0322,0.28,0.28
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,SVMSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0144,0.125,0.125
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,180,65,129,71,6,6,51,-45,0.2183,36.3836,36.3836
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,180,65,129,70,5,5,51,-46,0.1556,31.1227,31.1227
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,180,65,180,70,5,5,0,5,0.0115,2.3017,2.3017
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,180,65,180,74,9,9,0,9,0.0271,3.0069,3.0069
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,180,65,129,72,7,7,51,-44,0.1828,26.118,26.118
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,180,65,129,74,9,9,51,-42,0.0553,6.1416,6.1416
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,180,65,129,121,56,56,51,5,0.0671,1.1988,1.1988
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,None,None,--,not_applied,baseline_no_resampling,180,65,180,65,0,0,0,0,0.004,,
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,SMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.0118,0.1024,0.1024
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,ADASYN,Baseline,--,success,fit_resample,180,65,185,180,115,115,0,120,0.0064,0.0559,0.0559
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,BorderlineSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.006,0.0521,0.0521
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",180,65,180,180,115,115,0,115,0.0174,0.1512,0.1512
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,SVMSMOTE,Baseline,--,success,fit_resample,180,65,180,180,115,115,0,115,0.013,0.1129,0.1129
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,180,65,144,73,8,8,36,-28,0.1069,13.3594,13.3594
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,180,65,144,69,4,4,36,-32,0.0755,18.8668,18.8668
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,180,65,180,68,3,3,0,3,0.0132,4.3881,4.3881
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,180,65,180,77,12,12,0,12,0.0157,1.3076,1.3076
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,180,65,144,72,7,7,36,-29,0.1393,19.9034,19.9034
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,180,65,144,70,5,5,36,-31,0.1452,29.0369,29.0369
+Haberman,haberman,43,306,3,2.7778,Low,Features <= 10,1,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,180,65,144,143,78,78,36,42,0.0526,0.6746,0.6746
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,None,None,--,not_applied,baseline_no_resampling,456,142,456,142,0,0,0,0,0.0008,,
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,SMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0033,0.0106,0.0106
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,ADASYN,Baseline,--,success,fit_resample,456,142,463,456,314,314,0,321,0.0047,0.0151,0.0151
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,BorderlineSMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0047,0.015,0.015
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",456,142,460,456,314,314,0,318,0.0245,0.0779,0.0779
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,SVMSMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0189,0.0602,0.0602
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,456,142,339,161,19,19,117,-98,0.0431,2.2709,2.2709
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,456,142,339,166,24,24,117,-93,0.0464,1.9327,1.9327
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,456,142,456,146,4,4,0,4,0.0096,2.3891,2.3891
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,456,142,456,154,12,12,0,12,0.0199,1.6589,1.6589
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,456,142,339,157,15,15,117,-102,0.0352,2.3475,2.3475
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,456,142,339,155,13,13,117,-104,0.0435,3.3453,3.3453
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,456,142,339,332,190,190,117,73,0.036,0.1897,0.1897
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,None,None,--,not_applied,baseline_no_resampling,456,142,456,142,0,0,0,0,0.0008,,
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,SMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.004,0.0127,0.0127
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,ADASYN,Baseline,--,success,fit_resample,456,142,471,456,314,314,0,329,0.0046,0.0145,0.0145
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,BorderlineSMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0047,0.0148,0.0148
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",456,142,461,456,314,314,0,319,0.0258,0.0822,0.0822
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,SVMSMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0161,0.0513,0.0513
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,456,142,334,163,21,21,122,-101,0.0399,1.9023,1.9023
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,456,142,334,156,14,14,122,-108,0.0471,3.3654,3.3654
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,456,142,456,167,25,25,0,25,0.0113,0.4515,0.4515
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,456,142,456,144,2,2,0,2,0.0205,10.2643,10.2643
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,456,142,334,157,15,15,122,-107,0.0361,2.4051,2.4051
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,456,142,334,157,15,15,122,-107,0.0431,2.8701,2.8701
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,456,142,348,334,192,192,108,84,0.0378,0.1967,0.1967
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,None,None,--,not_applied,baseline_no_resampling,456,142,456,142,0,0,0,0,0.0009,,
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,SMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0033,0.0106,0.0106
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,ADASYN,Baseline,--,success,fit_resample,456,142,456,450,308,308,0,308,0.0065,0.0212,0.0212
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,BorderlineSMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0048,0.0152,0.0152
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",456,142,460,456,314,314,0,318,0.0348,0.1108,0.1108
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,SVMSMOTE,Baseline,--,success,fit_resample,456,142,456,456,314,314,0,314,0.0153,0.0486,0.0486
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,456,142,349,165,23,23,107,-84,0.0378,1.6435,1.6435
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,456,142,349,162,20,20,107,-87,0.1388,6.9398,6.9398
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,456,142,456,173,31,31,0,31,0.0148,0.4766,0.4766
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,456,142,456,154,12,12,0,12,0.0331,2.7566,2.7566
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,456,142,349,157,15,15,107,-92,0.4576,30.5094,30.5094
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,456,142,349,158,16,16,107,-91,0.4357,27.2304,27.2304
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,456,142,365,349,207,207,91,116,0.4261,2.0584,2.0584
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,None,None,--,not_applied,baseline_no_resampling,456,143,456,143,0,0,0,0,0.0015,,
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,SMOTE,Baseline,--,success,fit_resample,456,143,456,456,313,313,0,313,0.0031,0.0099,0.0099
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,ADASYN,Baseline,--,success,fit_resample,456,143,456,440,297,297,0,297,0.005,0.0167,0.0167
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,BorderlineSMOTE,Baseline,--,success,fit_resample,456,143,456,456,313,313,0,313,0.0052,0.0165,0.0165
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",456,143,459,456,313,313,0,316,0.0289,0.0923,0.0923
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,SVMSMOTE,Baseline,--,success,fit_resample,456,143,456,456,313,313,0,313,0.0164,0.0523,0.0523
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,456,143,338,164,21,21,118,-97,0.0418,1.9924,1.9924
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,456,143,338,161,18,18,118,-100,0.055,3.053,3.053
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,456,143,456,157,14,14,0,14,0.0129,0.9187,0.9187
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,456,143,456,151,8,8,0,8,0.0203,2.5437,2.5437
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,456,143,338,158,15,15,118,-103,0.0382,2.5437,2.5437
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,456,143,338,159,16,16,118,-102,0.0432,2.6993,2.6993
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,456,143,346,338,195,195,110,85,0.0432,0.2218,0.2218
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,None,None,--,not_applied,baseline_no_resampling,456,143,456,143,0,0,0,0,0.0009,,
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,SMOTE,Baseline,--,success,fit_resample,456,143,456,456,313,313,0,313,0.0033,0.0107,0.0107
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,ADASYN,Baseline,--,success,fit_resample,456,143,456,455,312,312,0,312,0.0046,0.0149,0.0149
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,BorderlineSMOTE,Baseline,--,success,fit_resample,456,143,456,456,313,313,0,313,0.0048,0.0152,0.0152
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",456,143,456,456,313,313,0,313,0.0115,0.0369,0.0369
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,SVMSMOTE,Baseline,--,success,fit_resample,456,143,456,456,313,313,0,313,0.0162,0.0519,0.0519
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,456,143,319,163,20,20,137,-117,0.0388,1.9421,1.9421
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,456,143,319,166,23,23,137,-114,0.046,1.9991,1.9991
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,456,143,456,161,18,18,0,18,0.0092,0.5101,0.5101
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,456,143,456,152,9,9,0,9,0.0274,3.0402,3.0402
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,456,143,319,158,15,15,137,-122,0.0339,2.2614,2.2614
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,456,143,319,158,15,15,137,-122,0.0419,2.7931,2.7931
+Blood-transfusion,blood-transfusion-service-center,1464,748,4,3.2022,Low,Features <= 10,1,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,456,143,341,319,176,176,115,61,0.0352,0.1998,0.1998
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,None,None,--,not_applied,baseline_no_resampling,3663,208,3663,208,0,0,0,0,0.0014,,
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,SMOTE,Baseline,--,success,fit_resample,3663,208,3663,3663,3455,3455,0,3455,0.004,0.0011,0.0011
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,ADASYN,Baseline,--,success,fit_resample,3663,208,3679,3663,3455,3455,0,3471,0.0155,0.0045,0.0045
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,BorderlineSMOTE,Baseline,--,success,fit_resample,3663,208,3663,3663,3455,3455,0,3455,0.0158,0.0046,0.0046
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",3663,208,3667,3663,3455,3455,0,3459,0.0292,0.0085,0.0085
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,SVMSMOTE,Baseline,--,success,fit_resample,3663,208,3663,3663,3455,3455,0,3455,0.0746,0.0216,0.0216
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,3663,208,2976,488,280,280,687,-407,0.1048,0.3741,0.3741
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,3663,208,2976,348,140,140,687,-547,0.2178,1.5554,1.5554
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,3663,208,3663,556,348,348,0,348,0.015,0.0432,0.0432
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,3663,208,3663,382,174,174,0,174,0.1399,0.8039,0.8039
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,3663,208,2976,229,21,21,687,-666,0.0938,4.4684,4.4684
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,3663,208,2976,219,11,11,687,-676,0.146,13.2682,13.2682
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,3663,208,3003,2976,2768,2768,660,2108,0.6894,0.2491,0.2491
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,None,None,--,not_applied,baseline_no_resampling,3662,209,3662,209,0,0,0,0,0.0015,,
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,SMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.004,0.0012,0.0012
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,ADASYN,Baseline,--,success,fit_resample,3662,209,3681,3662,3453,3453,0,3472,0.0158,0.0046,0.0046
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,BorderlineSMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0095,0.0028,0.0028
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",3662,209,3666,3662,3453,3453,0,3457,0.0333,0.0097,0.0097
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,SVMSMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0802,0.0232,0.0232
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,3662,209,2946,488,279,279,716,-437,1.542,5.5268,5.5268
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,3662,209,2946,349,140,140,716,-576,0.9973,7.1233,7.1233
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,3662,209,3662,557,348,348,0,348,0.0154,0.0443,0.0443
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,3662,209,3662,383,174,174,0,174,0.1659,0.9534,0.9534
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,3662,209,2946,230,21,21,716,-695,0.1442,6.8661,6.8661
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,3662,209,2946,220,11,11,716,-705,0.1768,16.0733,16.0733
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,3662,209,2999,2946,2737,2737,663,2074,0.12,0.0439,0.0439
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,None,None,--,not_applied,baseline_no_resampling,3662,209,3662,209,0,0,0,0,0.0009,,
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,SMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0053,0.0015,0.0015
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,ADASYN,Baseline,--,success,fit_resample,3662,209,3668,3662,3453,3453,0,3459,0.0092,0.0027,0.0027
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,BorderlineSMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0202,0.0059,0.0059
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",3662,209,3667,3662,3453,3453,0,3458,0.0315,0.0091,0.0091
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,SVMSMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0734,0.0213,0.0213
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,3662,209,2942,487,278,278,720,-442,0.1278,0.4598,0.4598
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,3662,209,2942,348,139,139,720,-581,0.2595,1.8668,1.8668
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,3662,209,3662,555,346,346,0,346,0.0143,0.0413,0.0413
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,3662,209,3662,382,173,173,0,173,0.1478,0.8544,0.8544
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,3662,209,2942,230,21,21,720,-699,0.1543,7.3489,7.3489
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,3662,209,2942,220,11,11,720,-709,0.1894,17.2224,17.2224
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,3662,209,2986,2942,2733,2733,676,2057,1.5607,0.571,0.571
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,None,None,--,not_applied,baseline_no_resampling,3662,209,3662,209,0,0,0,0,0.0008,,
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,SMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0041,0.0012,0.0012
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,ADASYN,Baseline,--,success,fit_resample,3662,209,3664,3662,3453,3453,0,3455,0.0094,0.0027,0.0027
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,BorderlineSMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.0163,0.0047,0.0047
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",3662,209,3666,3662,3453,3453,0,3457,0.0356,0.0103,0.0103
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,SVMSMOTE,Baseline,--,success,fit_resample,3662,209,3662,3662,3453,3453,0,3453,0.1304,0.0378,0.0378
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,3662,209,2944,482,273,273,718,-445,0.1129,0.4136,0.4136
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,3662,209,2944,346,137,137,718,-581,0.218,1.5914,1.5914
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,3662,209,3662,555,346,346,0,346,0.014,0.0403,0.0403
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,3662,209,3662,382,173,173,0,173,0.1395,0.8061,0.8061
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,3662,209,2944,230,21,21,718,-697,0.1116,5.3148,5.3148
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,3662,209,2944,220,11,11,718,-707,0.2017,18.338,18.338
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,3662,209,2944,2934,2725,2725,718,2007,0.1158,0.0425,0.0425
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,None,None,--,not_applied,baseline_no_resampling,3663,209,3663,209,0,0,0,0,0.0009,,
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,SMOTE,Baseline,--,success,fit_resample,3663,209,3663,3663,3454,3454,0,3454,0.0041,0.0012,0.0012
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,ADASYN,Baseline,--,success,fit_resample,3663,209,3670,3663,3454,3454,0,3461,0.016,0.0046,0.0046
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,BorderlineSMOTE,Baseline,--,success,fit_resample,3663,209,3663,3663,3454,3454,0,3454,0.0181,0.0052,0.0052
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",3663,209,3666,3663,3454,3454,0,3457,0.0346,0.01,0.01
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,SVMSMOTE,Baseline,--,success,fit_resample,3663,209,3663,3663,3454,3454,0,3454,0.074,0.0214,0.0214
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,3663,209,2923,484,275,275,740,-465,0.117,0.4255,0.4255
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,3663,209,2923,347,138,138,740,-602,0.2181,1.5806,1.5806
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,3663,209,3663,556,347,347,0,347,0.0164,0.0472,0.0472
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,3663,209,3663,383,174,174,0,174,0.1362,0.7826,0.7826
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,3663,209,2923,230,21,21,740,-719,0.102,4.8561,4.8561
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,3663,209,2923,220,11,11,740,-729,1.2321,112.0134,112.0134
+Wilt,wilt,40983,4839,5,17.5402,Medium,Features <= 10,1,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,3663,209,2958,2923,2714,2714,705,2009,0.5468,0.2015,0.2015
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,None,None,--,not_applied,baseline_no_resampling,239,113,239,113,0,0,0,0,0.0009,,
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,SMOTE,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0034,0.0272,0.0272
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,ADASYN,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0046,0.0364,0.0364
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,BorderlineSMOTE,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0045,0.036,0.036
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",239,113,241,239,126,126,0,128,0.0153,0.1217,0.1217
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,SVMSMOTE,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0096,0.0765,0.0765
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,239,113,181,121,8,8,58,-50,0.0362,4.5239,4.5239
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,239,113,181,135,22,22,58,-36,0.0386,1.7536,1.7536
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,239,113,239,120,7,7,0,7,0.0076,1.0813,1.0813
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,239,113,239,151,38,38,0,38,0.0099,0.2602,0.2602
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,239,113,181,125,12,12,58,-46,0.0352,2.9375,2.9375
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,239,113,181,124,11,11,58,-47,0.0337,3.0673,3.0673
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,239,113,184,181,68,68,55,13,0.0421,0.6186,0.6186
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,None,None,--,not_applied,baseline_no_resampling,239,113,239,113,0,0,0,0,0.0009,,
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,SMOTE,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0033,0.0259,0.0259
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,ADASYN,Baseline,--,success,fit_resample,239,113,247,239,126,126,0,134,0.0047,0.0375,0.0375
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,BorderlineSMOTE,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0048,0.0381,0.0381
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",239,113,241,239,126,126,0,128,0.0124,0.0982,0.0982
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,SVMSMOTE,Baseline,--,success,fit_resample,239,113,239,239,126,126,0,126,0.0102,0.0811,0.0811
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,239,113,183,121,8,8,56,-48,0.0375,4.6834,4.6834
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,239,113,183,139,26,26,56,-30,0.0515,1.9796,1.9796
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,239,113,239,122,9,9,0,9,0.0076,0.8461,0.8461
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,239,113,239,149,36,36,0,36,0.0112,0.312,0.312
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,239,113,183,114,1,1,56,-55,0.0316,31.59,31.59
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,239,113,183,136,23,23,56,-33,0.0365,1.5851,1.5851
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,239,113,185,183,70,70,54,16,0.0343,0.4906,0.4906
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,None,None,--,not_applied,baseline_no_resampling,238,114,238,114,0,0,0,0,0.0009,,
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,SMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0032,0.0256,0.0256
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,ADASYN,Baseline,--,success,fit_resample,238,114,238,236,122,122,0,122,0.0047,0.0389,0.0389
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,BorderlineSMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0046,0.0372,0.0372
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",238,114,239,238,124,124,0,125,0.0129,0.1043,0.1043
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,SVMSMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0108,0.0872,0.0872
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,238,114,189,121,7,7,49,-42,0.0347,4.964,4.964
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,238,114,189,133,19,19,49,-30,0.0693,3.6468,3.6468
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,238,114,238,118,4,4,0,4,0.0121,3.0307,3.0307
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,238,114,238,146,32,32,0,32,0.0184,0.5765,0.5765
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,238,114,189,115,1,1,49,-48,0.1323,132.3106,132.3106
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,238,114,189,134,20,20,49,-29,0.1174,5.8715,5.8715
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,238,114,189,183,69,69,49,20,0.1406,2.0384,2.0384
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,None,None,--,not_applied,baseline_no_resampling,238,114,238,114,0,0,0,0,0.0015,,
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,SMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0048,0.0384,0.0384
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,ADASYN,Baseline,--,success,fit_resample,238,114,248,238,124,124,0,134,0.007,0.0568,0.0568
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,BorderlineSMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0093,0.0748,0.0748
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",238,114,238,238,124,124,0,124,0.0108,0.0872,0.0872
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,SVMSMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0103,0.0832,0.0832
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,238,114,185,122,8,8,53,-45,0.0351,4.3926,4.3926
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,238,114,185,132,18,18,53,-35,0.0394,2.1895,2.1895
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,238,114,238,119,5,5,0,5,0.0077,1.5369,1.5369
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,238,114,238,149,35,35,0,35,0.0121,0.3468,0.3468
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,238,114,185,115,1,1,53,-52,0.0315,31.4713,31.4713
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,238,114,185,134,20,20,53,-33,0.0354,1.7708,1.7708
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,238,114,191,185,71,71,47,24,0.0347,0.4882,0.4882
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,None,None,--,not_applied,baseline_no_resampling,238,114,238,114,0,0,0,0,0.0015,,
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,SMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0039,0.0316,0.0316
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,ADASYN,Baseline,--,success,fit_resample,238,114,241,238,124,124,0,127,0.0055,0.044,0.044
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,BorderlineSMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.0054,0.0435,0.0435
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",238,114,239,238,124,124,0,125,0.0132,0.1063,0.1063
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,SVMSMOTE,Baseline,--,success,fit_resample,238,114,238,238,124,124,0,124,0.013,0.1047,0.1047
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,238,114,193,122,8,8,45,-37,0.0364,4.5501,4.5501
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,238,114,193,136,22,22,45,-23,0.0446,2.0271,2.0271
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,238,114,238,122,8,8,0,8,0.0088,1.095,1.095
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,238,114,238,148,34,34,0,34,0.0114,0.3354,0.3354
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,238,114,193,126,12,12,45,-33,0.03,2.5004,2.5004
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,238,114,193,133,19,19,45,-26,0.0489,2.5726,2.5726
+Wholesale-customers,wholesale-customers,1511,440,8,2.0986,Low,Features <= 10,1,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,238,114,193,192,78,78,45,33,0.0312,0.4005,0.4005
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,None,None,--,not_applied,baseline_no_resampling,13007,1311,13007,1311,0,0,0,0,0.0009,,
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,SMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.027,0.0023,0.0023
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,ADASYN,Baseline,--,success,fit_resample,13007,1311,13052,13007,11696,11696,0,11741,0.0439,0.0038,0.0038
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,BorderlineSMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.0422,0.0036,0.0036
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",13007,1311,13008,13007,11696,11696,0,11697,0.0534,0.0046,0.0046
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,SVMSMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.5939,0.0508,0.0508
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,13007,1311,10351,2214,903,903,2656,-1753,1.0328,1.1437,1.1437
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,13007,1311,10351,2013,702,702,2656,-1954,3.4422,4.9033,4.9033
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,13007,1311,13007,1566,255,255,0,255,0.0625,0.2453,0.2453
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,13007,1311,13007,2314,1003,1003,0,1003,1.1009,1.0976,1.0976
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,13007,1311,10351,1492,181,181,2656,-2475,1.0066,5.5613,5.5613
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,13007,1311,10351,1338,27,27,2656,-2629,1.2095,44.796,44.796
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,13007,1311,10351,10341,9030,9030,2656,6374,2.7082,0.2999,0.2999
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,None,None,--,not_applied,baseline_no_resampling,13007,1311,13007,1311,0,0,0,0,0.0009,,
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,SMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.0222,0.0019,0.0019
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,ADASYN,Baseline,--,success,fit_resample,13007,1311,13080,13007,11696,11696,0,11769,0.0431,0.0037,0.0037
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,BorderlineSMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.0407,0.0035,0.0035
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",13007,1311,13008,13007,11696,11696,0,11697,0.7643,0.0653,0.0653
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,SVMSMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.5626,0.0481,0.0481
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,13007,1311,10412,2220,909,909,2595,-1686,1.1774,1.2953,1.2953
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,13007,1311,10412,1904,593,593,2595,-2002,1.7591,2.9665,2.9665
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,13007,1311,13007,1819,508,508,0,508,0.0628,0.1235,0.1235
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,13007,1311,13007,2306,995,995,0,995,1.0727,1.0781,1.0781
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,13007,1311,10412,1480,169,169,2595,-2426,2.0759,12.2834,12.2834
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,13007,1311,10412,1334,23,23,2595,-2572,1.4686,63.8539,63.8539
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,13007,1311,10412,10395,9084,9084,2595,6489,1.6656,0.1834,0.1834
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,None,None,--,not_applied,baseline_no_resampling,13007,1311,13007,1311,0,0,0,0,0.001,,
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,SMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.0153,0.0013,0.0013
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,ADASYN,Baseline,--,success,fit_resample,13007,1311,13007,13006,11695,11695,0,11695,0.0431,0.0037,0.0037
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,BorderlineSMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.0413,0.0035,0.0035
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",13007,1311,13008,13007,11696,11696,0,11697,0.0803,0.0069,0.0069
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,SVMSMOTE,Baseline,--,success,fit_resample,13007,1311,13007,13007,11696,11696,0,11696,0.5842,0.0499,0.0499
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,13007,1311,10381,2218,907,907,2626,-1719,1.0118,1.1156,1.1156
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,13007,1311,10381,1943,632,632,2626,-1994,1.7896,2.8317,2.8317
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,13007,1311,13007,1745,434,434,0,434,0.102,0.2351,0.2351
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,13007,1311,13007,2278,967,967,0,967,1.1195,1.1577,1.1577
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,13007,1311,10381,1499,188,188,2626,-2438,1.4631,7.7826,7.7826
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,13007,1311,10381,1339,28,28,2626,-2598,1.3455,48.053,48.053
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,13007,1311,10381,10378,9067,9067,2626,6441,1.1939,0.1317,0.1317
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,None,None,--,not_applied,baseline_no_resampling,13007,1312,13007,1312,0,0,0,0,0.0009,,
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,SMOTE,Baseline,--,success,fit_resample,13007,1312,13007,13007,11695,11695,0,11695,0.0158,0.0014,0.0014
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,ADASYN,Baseline,--,success,fit_resample,13007,1312,13007,12932,11620,11620,0,11620,0.0433,0.0037,0.0037
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,BorderlineSMOTE,Baseline,--,success,fit_resample,13007,1312,13007,13007,11695,11695,0,11695,0.0645,0.0055,0.0055
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",13007,1312,13008,13007,11695,11695,0,11696,0.0462,0.004,0.004
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,SVMSMOTE,Baseline,--,success,fit_resample,13007,1312,13007,13007,11695,11695,0,11695,0.5459,0.0467,0.0467
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,13007,1312,10428,2218,906,906,2579,-1673,2.7023,2.9827,2.9827
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,13007,1312,10428,2177,865,865,2579,-1714,1.761,2.0358,2.0358
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,13007,1312,13007,1756,444,444,0,444,0.0621,0.1398,0.1398
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,13007,1312,13007,2604,1292,1292,0,1292,1.0257,0.7939,0.7939
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,13007,1312,10428,1493,181,181,2579,-2398,1.0482,5.7909,5.7909
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,13007,1312,10428,1341,29,29,2579,-2550,3.3566,115.7434,115.7434
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,13007,1312,10428,10371,9059,9059,2579,6480,1.1616,0.1282,0.1282
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,None,None,--,not_applied,baseline_no_resampling,13008,1311,13008,1311,0,0,0,0,0.0015,,
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,SMOTE,Baseline,--,success,fit_resample,13008,1311,13008,13008,11697,11697,0,11697,0.0145,0.0012,0.0012
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,ADASYN,Baseline,--,success,fit_resample,13008,1311,13028,13008,11697,11697,0,11717,0.0777,0.0066,0.0066
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,BorderlineSMOTE,Baseline,--,success,fit_resample,13008,1311,13008,13008,11697,11697,0,11697,0.0407,0.0035,0.0035
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",13008,1311,13009,13008,11697,11697,0,11698,0.0455,0.0039,0.0039
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,SVMSMOTE,Baseline,--,success,fit_resample,13008,1311,13008,13008,11697,11697,0,11697,0.9568,0.0818,0.0818
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,13008,1311,10378,2221,910,910,2630,-1720,1.3096,1.4391,1.4391
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,13008,1311,10378,1900,589,589,2630,-2041,1.7652,2.9969,2.9969
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,13008,1311,13008,1890,579,579,0,579,0.0658,0.1136,0.1136
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,13008,1311,13008,2331,1020,1020,0,1020,1.8991,1.8619,1.8619
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,13008,1311,10378,1508,197,197,2630,-2433,1.0359,5.2586,5.2586
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,13008,1311,10378,1337,26,26,2630,-2604,3.467,133.347,133.347
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,17898,8,9.9201,Medium,Features <= 10,1,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,13008,1311,10407,10378,9067,9067,2601,6466,1.0553,0.1164,0.1164
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,None,None,--,not_applied,baseline_no_resampling,8738,208,8738,208,0,0,0,0,0.0016,,
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,SMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.0107,0.0013,0.0013
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,ADASYN,Baseline,--,success,fit_resample,8738,208,8740,8738,8530,8530,0,8532,0.0166,0.0019,0.0019
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,BorderlineSMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.0167,0.002,0.002
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",8738,208,8741,8738,8530,8530,0,8533,0.766,0.0898,0.0898
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,SVMSMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.1505,0.0176,0.0176
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,8738,208,5994,787,579,579,2744,-2165,0.1775,0.3066,0.3066
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,8738,208,5994,883,675,675,2744,-2069,0.2884,0.4272,0.4272
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,8738,208,8738,228,20,20,0,20,0.0247,1.2345,1.2345
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,8738,208,8738,799,591,591,0,591,0.2977,0.5037,0.5037
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,8738,208,5994,209,1,1,2744,-2743,1.2894,1289.3949,1289.3949
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,8738,208,5994,224,16,16,2744,-2728,0.9476,59.2257,59.2257
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,8738,208,5994,5993,5785,5785,2744,3041,0.1772,0.0306,0.0306
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,None,None,--,not_applied,baseline_no_resampling,8738,208,8738,208,0,0,0,0,0.001,,
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,SMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.0054,0.0006,0.0006
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,ADASYN,Baseline,--,success,fit_resample,8738,208,8776,8738,8530,8530,0,8568,0.0165,0.0019,0.0019
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,BorderlineSMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.0269,0.0032,0.0032
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",8738,208,8742,8738,8530,8530,0,8534,0.0499,0.0058,0.0058
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,SVMSMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.1573,0.0184,0.0184
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,8738,208,6006,789,581,581,2732,-2151,0.1399,0.2409,0.2409
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,8738,208,6006,920,712,712,2732,-2020,1.2483,1.7532,1.7532
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,8738,208,8738,217,9,9,0,9,0.0405,4.4945,4.4945
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,8738,208,8738,739,531,531,0,531,0.3145,0.5922,0.5922
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,8738,208,6006,229,21,21,2732,-2711,0.1363,6.4913,6.4913
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,8738,208,6006,223,15,15,2732,-2717,0.1846,12.3055,12.3055
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,8738,208,6012,6006,5798,5798,2726,3072,0.1351,0.0233,0.0233
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,None,None,--,not_applied,baseline_no_resampling,8738,208,8738,208,0,0,0,0,0.0009,,
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,SMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.0084,0.001,0.001
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,ADASYN,Baseline,--,success,fit_resample,8738,208,8758,8738,8530,8530,0,8550,0.0273,0.0032,0.0032
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,BorderlineSMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.017,0.002,0.002
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",8738,208,8740,8738,8530,8530,0,8532,0.0351,0.0041,0.0041
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,SVMSMOTE,Baseline,--,success,fit_resample,8738,208,8738,8738,8530,8530,0,8530,0.1515,0.0178,0.0178
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,8738,208,6090,797,589,589,2648,-2059,0.415,0.7046,0.7046
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,8738,208,6090,847,639,639,2648,-2009,0.3046,0.4767,0.4767
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,8738,208,8738,225,17,17,0,17,0.0229,1.3455,1.3455
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,8738,208,8738,792,584,584,0,584,0.3074,0.5264,0.5264
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,8738,208,6090,213,5,5,2648,-2643,0.1596,31.9279,31.9279
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,8738,208,6090,221,13,13,2648,-2635,0.2118,16.2892,16.2892
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,8738,208,6092,6090,5882,5882,2646,3236,0.1635,0.0278,0.0278
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,None,None,--,not_applied,baseline_no_resampling,8739,208,8739,208,0,0,0,0,0.0009,,
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,SMOTE,Baseline,--,success,fit_resample,8739,208,8739,8739,8531,8531,0,8531,0.0088,0.001,0.001
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,ADASYN,Baseline,--,success,fit_resample,8739,208,8754,8739,8531,8531,0,8546,0.0167,0.002,0.002
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,BorderlineSMOTE,Baseline,--,success,fit_resample,8739,208,8739,8739,8531,8531,0,8531,0.0165,0.0019,0.0019
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",8739,208,8742,8739,8531,8531,0,8534,0.0435,0.0051,0.0051
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,SVMSMOTE,Baseline,--,success,fit_resample,8739,208,8739,8739,8531,8531,0,8531,0.2759,0.0323,0.0323
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,8739,208,5948,782,574,574,2791,-2217,0.137,0.2386,0.2386
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,8739,208,5948,973,765,765,2791,-2026,0.2752,0.3597,0.3597
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,8739,208,8739,228,20,20,0,20,0.0233,1.1655,1.1655
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,8739,208,8739,769,561,561,0,561,0.3047,0.5431,0.5431
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,8739,208,5948,209,1,1,2791,-2790,0.1298,129.8323,129.8323
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,8739,208,5948,226,18,18,2791,-2773,0.1847,10.2619,10.2619
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,8739,208,5948,5943,5735,5735,2791,2944,1.1645,0.2031,0.2031
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,None,None,--,not_applied,baseline_no_resampling,8739,208,8739,208,0,0,0,0,0.001,,
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,SMOTE,Baseline,--,success,fit_resample,8739,208,8739,8739,8531,8531,0,8531,0.0057,0.0007,0.0007
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,ADASYN,Baseline,--,success,fit_resample,8739,208,8749,8739,8531,8531,0,8541,0.0164,0.0019,0.0019
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,BorderlineSMOTE,Baseline,--,success,fit_resample,8739,208,8739,8739,8531,8531,0,8531,0.0164,0.0019,0.0019
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",8739,208,8739,8739,8531,8531,0,8531,0.0285,0.0033,0.0033
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,SVMSMOTE,Baseline,--,success,fit_resample,8739,208,8739,8739,8531,8531,0,8531,0.1521,0.0178,0.0178
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,8739,208,5988,785,577,577,2751,-2174,0.1418,0.2457,0.2457
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,8739,208,5988,649,441,441,2751,-2310,0.2554,0.5791,0.5791
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,8739,208,8739,1063,855,855,0,855,0.0241,0.0282,0.0282
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,8739,208,8739,787,579,579,0,579,0.5311,0.9173,0.9173
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,8739,208,5988,213,5,5,2751,-2746,0.6786,135.7254,135.7254
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,8739,208,5988,223,15,15,2751,-2736,0.1903,12.6879,12.6879
+Mammography,mammography,310,11183,6,42.0115,Extreme,Features <= 10,1,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,8739,208,5988,5978,5770,5770,2751,3019,0.1491,0.0258,0.0258
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,None,None,--,not_applied,baseline_no_resampling,9175,4104,9175,4104,0,0,0,0,0.0009,,
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,SMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.0981,0.0194,0.0194
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,ADASYN,Baseline,--,success,fit_resample,9175,4104,9175,9144,5040,5040,0,5040,0.3588,0.0712,0.0712
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,BorderlineSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.3259,0.0643,0.0643
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",9175,4104,9176,9175,5071,5071,0,5072,1.1081,0.2185,0.2185
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,SVMSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,3.4688,0.684,0.684
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,9175,4104,7336,4398,294,294,1839,-1545,1.9099,6.4963,6.4963
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,9175,4104,7336,4488,384,384,1839,-1455,4.5345,11.8086,11.8086
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,9175,4104,9175,4608,504,504,0,504,0.5084,1.0087,1.0087
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,9175,4104,9175,4730,626,626,0,626,4.58,7.3163,7.3163
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,9175,4104,7336,4120,16,16,1839,-1823,2.4788,154.9225,154.9225
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,9175,4104,7336,4432,328,328,1839,-1511,4.2203,12.8667,12.8667
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,9175,4104,7336,7037,2933,2933,1839,1094,3.9691,1.3533,1.3533
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,None,None,--,not_applied,baseline_no_resampling,9175,4104,9175,4104,0,0,0,0,0.001,,
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,SMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.0959,0.0189,0.0189
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,ADASYN,Baseline,--,success,fit_resample,9175,4104,9175,9164,5060,5060,0,5060,0.5359,0.1059,0.1059
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,BorderlineSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.3267,0.0644,0.0644
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",9175,4104,9176,9175,5071,5071,0,5072,0.5381,0.1061,0.1061
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,SVMSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,3.3239,0.6555,0.6555
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,9175,4104,7306,4402,298,298,1869,-1571,1.9216,6.4482,6.4482
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,9175,4104,7306,4516,412,412,1869,-1457,4.4461,10.7916,10.7916
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,9175,4104,9175,4105,1,1,0,1,0.798,798.0223,798.0223
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,9175,4104,9175,4757,653,653,0,653,4.6254,7.0833,7.0833
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,9175,4104,7306,4122,18,18,1869,-1851,3.5441,196.8938,196.8938
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,9175,4104,7306,4421,317,317,1869,-1552,4.3625,13.7619,13.7619
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,9175,4104,7306,7083,2979,2979,1869,1110,4.1307,1.3866,1.3866
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,None,None,--,not_applied,baseline_no_resampling,9175,4104,9175,4104,0,0,0,0,0.001,,
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,SMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.0989,0.0195,0.0195
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,ADASYN,Baseline,--,success,fit_resample,9175,4104,9254,9175,5071,5071,0,5150,0.3629,0.0716,0.0716
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,BorderlineSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.3424,0.0675,0.0675
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",9175,4104,9176,9175,5071,5071,0,5072,0.2414,0.0476,0.0476
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,SVMSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,3.3662,0.6638,0.6638
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,9175,4104,7311,4402,298,298,1864,-1566,1.8348,6.1571,6.1571
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,9175,4104,7311,4549,445,445,1864,-1419,4.8041,10.7956,10.7956
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,9175,4104,9175,4108,4,4,0,4,0.461,115.2562,115.2562
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,9175,4104,9175,4746,642,642,0,642,4.7398,7.3829,7.3829
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,9175,4104,7311,4127,23,23,1864,-1841,2.7026,117.5041,117.5041
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,9175,4104,7311,4439,335,335,1864,-1529,4.545,13.5671,13.5671
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,9175,4104,7311,7082,2978,2978,1864,1114,3.6727,1.2333,1.2333
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,None,None,--,not_applied,baseline_no_resampling,9175,4104,9175,4104,0,0,0,0,0.001,,
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,SMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.0946,0.0187,0.0187
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,ADASYN,Baseline,--,success,fit_resample,9175,4104,9213,9175,5071,5071,0,5109,0.3756,0.0741,0.0741
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,BorderlineSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,0.322,0.0635,0.0635
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",9175,4104,9176,9175,5071,5071,0,5072,0.7941,0.1566,0.1566
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,SVMSMOTE,Baseline,--,success,fit_resample,9175,4104,9175,9175,5071,5071,0,5071,3.2789,0.6466,0.6466
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,9175,4104,7324,4404,300,300,1851,-1551,1.8434,6.1448,6.1448
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,9175,4104,7324,4536,432,432,1851,-1419,4.6136,10.6796,10.6796
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,9175,4104,9175,4615,511,511,0,511,0.6856,1.3417,1.3417
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,9175,4104,9175,4726,622,622,0,622,4.4667,7.1811,7.1811
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,9175,4104,7324,4121,17,17,1851,-1834,2.7806,163.5672,163.5672
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,9175,4104,7324,4416,312,312,1851,-1539,4.3235,13.8572,13.8572
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,9175,4104,7324,7095,2991,2991,1851,1140,3.8119,1.2745,1.2745
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,None,None,--,not_applied,baseline_no_resampling,9176,4104,9176,4104,0,0,0,0,0.0009,,
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,SMOTE,Baseline,--,success,fit_resample,9176,4104,9176,9176,5072,5072,0,5072,0.0961,0.0189,0.0189
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,ADASYN,Baseline,--,success,fit_resample,9176,4104,9183,9176,5072,5072,0,5079,0.3585,0.0707,0.0707
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,BorderlineSMOTE,Baseline,--,success,fit_resample,9176,4104,9176,9176,5072,5072,0,5072,0.3317,0.0654,0.0654
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",9176,4104,9176,9176,5072,5072,0,5072,0.1138,0.0224,0.0224
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,SVMSMOTE,Baseline,--,success,fit_resample,9176,4104,9176,9176,5072,5072,0,5072,3.4547,0.6811,0.6811
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,9176,4104,7323,4400,296,296,1853,-1557,1.7754,5.9979,5.9979
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,9176,4104,7323,4534,430,430,1853,-1423,4.4535,10.3569,10.3569
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,9176,4104,9176,4109,5,5,0,5,0.6266,125.3144,125.3144
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,9176,4104,9176,4760,656,656,0,656,4.7071,7.1754,7.1754
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,9176,4104,7323,4115,11,11,1853,-1842,2.7096,246.3311,246.3311
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,9176,4104,7323,4442,338,338,1853,-1515,4.5083,13.3382,13.3382
+Elevators,elevators,846,16599,18,2.2357,Low,10 < Features <= 30,2,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,9176,4104,7323,7063,2959,2959,1853,1106,3.6147,1.2216,1.2216
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,None,None,--,not_applied,baseline_no_resampling,4572,1981,4572,1981,0,0,0,0,0.001,,
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,SMOTE,Baseline,--,success,fit_resample,4572,1981,4572,4572,2591,2591,0,2591,0.0803,0.031,0.031
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,ADASYN,Baseline,--,success,fit_resample,4572,1981,4572,4569,2588,2588,0,2588,0.3296,0.1273,0.1273
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,BorderlineSMOTE,Baseline,--,success,fit_resample,4572,1981,4572,4572,2591,2591,0,2591,0.1588,0.0613,0.0613
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",4572,1981,4575,4572,2591,2591,0,2594,0.0753,0.0291,0.0291
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,SVMSMOTE,Baseline,--,success,fit_resample,4572,1981,4572,4572,2591,2591,0,2591,0.5897,0.2276,0.2276
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4572,1981,3552,2137,156,156,1020,-864,1.9036,12.2023,12.2023
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4572,1981,3552,2172,191,191,1020,-829,0.5868,3.0722,3.0722
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4572,1981,4572,2407,426,426,0,426,0.2306,0.5412,0.5412
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4572,1981,4572,2391,410,410,0,410,0.8598,2.0971,2.0971
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4572,1981,3552,2180,199,199,1020,-821,0.13,0.6535,0.6535
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4572,1981,3552,2039,58,58,1020,-962,1.8036,31.0963,31.0963
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4572,1981,3552,3541,1560,1560,1020,540,0.3025,0.1939,0.1939
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,None,None,--,not_applied,baseline_no_resampling,4572,1981,4572,1981,0,0,0,0,0.001,,
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,SMOTE,Baseline,--,success,fit_resample,4572,1981,4572,4572,2591,2591,0,2591,0.0757,0.0292,0.0292
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,ADASYN,Baseline,--,success,fit_resample,4572,1981,4604,4572,2591,2591,0,2623,0.2122,0.0819,0.0819
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,BorderlineSMOTE,Baseline,--,success,fit_resample,4572,1981,4572,4572,2591,2591,0,2591,0.2542,0.0981,0.0981
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",4572,1981,4574,4572,2591,2591,0,2593,0.0748,0.0289,0.0289
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,SVMSMOTE,Baseline,--,success,fit_resample,4572,1981,4572,4572,2591,2591,0,2591,0.5963,0.2302,0.2302
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4572,1981,3531,2135,154,154,1041,-887,1.7726,11.5102,11.5102
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4572,1981,3531,2189,208,208,1041,-833,0.5666,2.7241,2.7241
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4572,1981,4572,2390,409,409,0,409,0.2224,0.5438,0.5438
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4572,1981,4572,2387,406,406,0,406,0.866,2.133,2.133
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4572,1981,3531,2180,199,199,1041,-842,0.132,0.6636,0.6636
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4572,1981,3531,2040,59,59,1041,-982,1.2181,20.6466,20.6466
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4572,1981,3531,3513,1532,1532,1041,491,0.32,0.2089,0.2089
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,None,None,--,not_applied,baseline_no_resampling,4572,1982,4572,1982,0,0,0,0,0.001,,
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,SMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.0816,0.0315,0.0315
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,ADASYN,Baseline,--,success,fit_resample,4572,1982,4572,4459,2477,2477,0,2477,0.2056,0.083,0.083
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,BorderlineSMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.2774,0.1071,0.1071
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",4572,1982,4574,4572,2590,2590,0,2592,0.0736,0.0284,0.0284
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,SVMSMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.5923,0.2287,0.2287
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4572,1982,3543,2131,149,149,1029,-880,0.2979,1.9995,1.9995
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4572,1982,3543,2183,201,201,1029,-828,1.7336,8.6249,8.6249
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4572,1982,4572,2421,439,439,0,439,0.2236,0.5094,0.5094
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4572,1982,4572,2366,384,384,0,384,0.8387,2.1842,2.1842
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4572,1982,3543,2181,199,199,1029,-830,0.1594,0.801,0.801
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4572,1982,3543,2047,65,65,1029,-964,0.4498,6.9204,6.9204
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4572,1982,3543,3467,1485,1485,1029,456,1.331,0.8963,0.8963
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,None,None,--,not_applied,baseline_no_resampling,4572,1982,4572,1982,0,0,0,0,0.0009,,
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,SMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.0823,0.0318,0.0318
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,ADASYN,Baseline,--,success,fit_resample,4572,1982,4595,4572,2590,2590,0,2613,0.2078,0.0803,0.0803
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,BorderlineSMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.1817,0.0701,0.0701
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",4572,1982,4573,4572,2590,2590,0,2591,0.2658,0.1026,0.1026
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,SVMSMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.5656,0.2184,0.2184
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4572,1982,3555,2137,155,155,1017,-862,0.3543,2.2855,2.2855
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4572,1982,3555,2216,234,234,1017,-783,0.6476,2.7674,2.7674
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4572,1982,4572,2385,403,403,0,403,0.3808,0.945,0.945
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4572,1982,4572,2392,410,410,0,410,0.8898,2.1703,2.1703
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4572,1982,3555,2181,199,199,1017,-818,0.1715,0.862,0.862
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4572,1982,3555,2065,83,83,1017,-934,0.4906,5.9114,5.9114
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4572,1982,3555,3530,1548,1548,1017,531,0.3141,0.2029,0.2029
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,None,None,--,not_applied,baseline_no_resampling,4572,1982,4572,1982,0,0,0,0,0.0016,,
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,SMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.1202,0.0464,0.0464
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,ADASYN,Baseline,--,success,fit_resample,4572,1982,4572,4518,2536,2536,0,2536,0.2157,0.085,0.085
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,BorderlineSMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.1625,0.0627,0.0627
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",4572,1982,4574,4572,2590,2590,0,2592,0.0749,0.0289,0.0289
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,SVMSMOTE,Baseline,--,success,fit_resample,4572,1982,4572,4572,2590,2590,0,2590,0.9411,0.3634,0.3634
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4572,1982,3531,2133,151,151,1041,-890,0.3143,2.0814,2.0814
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4572,1982,3531,2157,175,175,1041,-866,0.5594,3.1965,3.1965
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4572,1982,4572,2420,438,438,0,438,0.242,0.5525,0.5525
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4572,1982,4572,2365,383,383,0,383,1.0533,2.7501,2.7501
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4572,1982,3531,2181,199,199,1041,-842,1.1107,5.5815,5.5815
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4572,1982,3531,2042,60,60,1041,-981,0.3975,6.6254,6.6254
+CPU small,cpu_small,735,8192,12,2.3072,Low,10 < Features <= 30,2,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4572,1982,3531,3486,1504,1504,1041,463,0.3475,0.231,0.231
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,None,None,--,not_applied,baseline_no_resampling,502,174,502,174,0,0,0,0,0.0009,,
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,SMOTE,Baseline,--,success,fit_resample,502,174,502,502,328,328,0,328,0.0041,0.0124,0.0124
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,ADASYN,Baseline,--,success,fit_resample,502,174,516,502,328,328,0,342,0.006,0.0182,0.0182
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,BorderlineSMOTE,Baseline,--,success,fit_resample,502,174,502,502,328,328,0,328,0.0062,0.0189,0.0189
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",502,174,502,502,328,328,0,328,0.0137,0.0417,0.0417
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,SVMSMOTE,Baseline,--,success,fit_resample,502,174,502,502,328,328,0,328,0.0187,0.0572,0.0572
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,502,174,420,175,1,1,82,-81,0.0619,61.8987,61.8987
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,502,174,420,200,26,26,82,-56,0.4715,18.1337,18.1337
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,502,174,502,194,20,20,0,20,0.0774,3.8721,3.8721
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,502,174,502,206,32,32,0,32,0.0445,1.3893,1.3893
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,502,174,420,192,18,18,82,-64,0.3275,18.1943,18.1943
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,502,174,420,184,10,10,82,-72,0.2498,24.9774,24.9774
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,502,174,420,414,240,240,82,158,0.4131,1.7211,1.7211
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,None,None,--,not_applied,baseline_no_resampling,502,175,502,175,0,0,0,0,0.0012,,
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,SMOTE,Baseline,--,success,fit_resample,502,175,502,502,327,327,0,327,0.0039,0.0119,0.0119
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,ADASYN,Baseline,--,success,fit_resample,502,175,519,502,327,327,0,344,0.0069,0.0212,0.0212
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,BorderlineSMOTE,Baseline,--,success,fit_resample,502,175,502,502,327,327,0,327,0.0062,0.0189,0.0189
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",502,175,503,502,327,327,0,328,0.0166,0.0508,0.0508
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,SVMSMOTE,Baseline,--,success,fit_resample,502,175,502,502,327,327,0,327,0.0186,0.057,0.057
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,502,175,423,201,26,26,79,-53,0.0503,1.935,1.935
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,502,175,423,206,31,31,79,-48,0.0931,3.0034,3.0034
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,502,175,502,198,23,23,0,23,0.0122,0.5316,0.5316
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,502,175,502,219,44,44,0,44,0.0251,0.5706,0.5706
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,502,175,423,179,4,4,79,-75,0.052,13.004,13.004
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,502,175,423,183,8,8,79,-71,0.0537,6.7104,6.7104
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,502,175,433,423,248,248,69,179,0.0597,0.2407,0.2407
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,None,None,--,not_applied,baseline_no_resampling,502,175,502,175,0,0,0,0,0.0009,,
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,SMOTE,Baseline,--,success,fit_resample,502,175,502,502,327,327,0,327,0.0042,0.0128,0.0128
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,ADASYN,Baseline,--,success,fit_resample,502,175,502,489,314,314,0,314,0.006,0.0192,0.0192
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,BorderlineSMOTE,Baseline,--,success,fit_resample,502,175,502,502,327,327,0,327,0.006,0.0183,0.0183
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",502,175,502,502,327,327,0,327,0.0152,0.0464,0.0464
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,SVMSMOTE,Baseline,--,success,fit_resample,502,175,502,502,327,327,0,327,0.018,0.055,0.055
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,502,175,417,177,2,2,85,-83,0.0601,30.0565,30.0565
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,502,175,417,200,25,25,85,-60,0.0602,2.4068,2.4068
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,502,175,502,194,19,19,0,19,0.056,2.9489,2.9489
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,502,175,502,212,37,37,0,37,0.0914,2.4702,2.4702
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,502,175,417,176,1,1,85,-84,0.5787,578.6858,578.6858
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,502,175,417,187,12,12,85,-73,1.0644,88.704,88.704
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,502,175,417,413,238,238,85,153,0.4247,1.7846,1.7846
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,None,None,--,not_applied,baseline_no_resampling,503,174,503,174,0,0,0,0,0.0009,,
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,SMOTE,Baseline,--,success,fit_resample,503,174,503,503,329,329,0,329,0.004,0.0123,0.0123
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,ADASYN,Baseline,--,success,fit_resample,503,174,510,503,329,329,0,336,0.0064,0.0193,0.0193
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,BorderlineSMOTE,Baseline,--,success,fit_resample,503,174,503,503,329,329,0,329,0.0058,0.0176,0.0176
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",503,174,506,503,329,329,0,332,0.0395,0.1201,0.1201
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,SVMSMOTE,Baseline,--,success,fit_resample,503,174,503,503,329,329,0,329,0.0181,0.055,0.055
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,503,174,426,175,1,1,77,-76,0.05,49.9618,49.9618
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,503,174,426,205,31,31,77,-46,0.0582,1.876,1.876
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,503,174,503,195,21,21,0,21,0.0125,0.5945,0.5945
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,503,174,503,216,42,42,0,42,0.0237,0.5652,0.5652
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,503,174,426,192,18,18,77,-59,0.0432,2.4011,2.4011
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,503,174,426,182,8,8,77,-69,0.054,6.7458,6.7458
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,503,174,426,412,238,238,77,161,0.0472,0.1984,0.1984
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,None,None,--,not_applied,baseline_no_resampling,503,174,503,174,0,0,0,0,0.0009,,
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,SMOTE,Baseline,--,success,fit_resample,503,174,503,503,329,329,0,329,0.0041,0.0124,0.0124
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,ADASYN,Baseline,--,success,fit_resample,503,174,506,503,329,329,0,332,0.006,0.0183,0.0183
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,BorderlineSMOTE,Baseline,--,success,fit_resample,503,174,503,503,329,329,0,329,0.0063,0.0191,0.0191
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",503,174,503,503,329,329,0,329,0.0123,0.0374,0.0374
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,SVMSMOTE,Baseline,--,success,fit_resample,503,174,503,503,329,329,0,329,0.0179,0.0545,0.0545
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,503,174,412,197,23,23,91,-68,0.0662,2.8799,2.8799
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,503,174,412,190,16,16,91,-75,0.0619,3.8704,3.8704
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,503,174,503,206,32,32,0,32,0.0158,0.4942,0.4942
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,503,174,503,203,29,29,0,29,0.0946,3.2635,3.2635
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,503,174,412,179,5,5,91,-86,0.1299,25.9737,25.9737
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,503,174,412,184,10,10,91,-81,0.1027,10.2661,10.2661
+Vehicle,vehicle,994,846,18,2.8807,Low,10 < Features <= 30,2,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,503,174,412,404,230,230,91,139,0.9569,4.1606,4.1606
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,None,None,--,not_applied,baseline_no_resampling,2971,46,2971,46,0,0,0,0,0.0023,,
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,SMOTE,Baseline,--,success,fit_resample,2971,46,2971,2971,2925,2925,0,2925,0.006,0.0021,0.0021
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,ADASYN,Baseline,--,success,fit_resample,2971,46,2975,2971,2925,2925,0,2929,0.0082,0.0028,0.0028
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,BorderlineSMOTE,Baseline,--,success,fit_resample,2971,46,2971,2971,2925,2925,0,2925,0.0085,0.0029,0.0029
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",2971,46,2972,2971,2925,2925,0,2926,0.042,0.0144,0.0144
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,SVMSMOTE,Baseline,--,success,fit_resample,2971,46,2971,1655,1609,1609,0,1609,0.0658,0.0409,0.0409
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,2971,46,2074,250,204,204,897,-693,0.1025,0.5027,0.5027
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,2971,46,2074,56,10,10,897,-887,0.1582,15.8168,15.8168
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,2971,46,2971,339,293,293,0,293,0.0339,0.1157,0.1157
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,2971,46,2971,193,147,147,0,147,0.1021,0.6947,0.6947
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,2971,46,2074,51,5,5,897,-892,0.0994,19.8828,19.8828
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,2971,46,2074,47,1,1,897,-896,0.5389,538.9462,538.9462
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,2971,46,2079,2074,2028,2028,892,1136,0.6984,0.3444,0.3444
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,None,None,--,not_applied,baseline_no_resampling,2971,46,2971,46,0,0,0,0,0.0015,,
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,SMOTE,Baseline,--,success,fit_resample,2971,46,2971,2971,2925,2925,0,2925,0.0217,0.0074,0.0074
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,ADASYN,Baseline,--,success,fit_resample,2971,46,2971,2956,2910,2910,0,2910,0.0085,0.0029,0.0029
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,BorderlineSMOTE,Baseline,--,success,fit_resample,2971,46,2971,2971,2925,2925,0,2925,0.0082,0.0028,0.0028
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",2971,46,2972,2971,2925,2925,0,2926,0.0545,0.0186,0.0186
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,SVMSMOTE,Baseline,--,success,fit_resample,2971,46,2971,1655,1609,1609,0,1609,0.0618,0.0384,0.0384
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,2971,46,2064,249,203,203,907,-704,0.1351,0.6657,0.6657
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,2971,46,2064,91,45,45,907,-862,0.15,3.334,3.334
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,2971,46,2971,337,291,291,0,291,0.0284,0.0974,0.0974
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,2971,46,2971,192,146,146,0,146,0.0965,0.661,0.661
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,2971,46,2064,51,5,5,907,-902,0.099,19.7973,19.7973
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,2971,46,2064,49,3,3,907,-904,0.1657,55.2328,55.2328
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,2971,46,2070,2064,2018,2018,901,1117,0.1695,0.084,0.084
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,None,None,--,not_applied,baseline_no_resampling,2971,47,2971,47,0,0,0,0,0.0016,,
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,SMOTE,Baseline,--,success,fit_resample,2971,47,2971,2971,2924,2924,0,2924,0.0091,0.0031,0.0031
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,ADASYN,Baseline,--,success,fit_resample,2971,47,2971,2959,2912,2912,0,2912,0.0169,0.0058,0.0058
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,BorderlineSMOTE,Baseline,--,success,fit_resample,2971,47,2971,2971,2924,2924,0,2924,0.0098,0.0033,0.0033
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",2971,47,2971,2971,2924,2924,0,2924,0.0379,0.013,0.013
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,SVMSMOTE,Baseline,--,success,fit_resample,2971,47,2971,1655,1608,1608,0,1608,0.0592,0.0368,0.0368
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,2971,47,2065,249,202,202,906,-704,0.1063,0.5263,0.5263
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,2971,47,2065,148,101,101,906,-805,0.1607,1.5907,1.5907
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,2971,47,2971,339,292,292,0,292,0.0314,0.1074,0.1074
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,2971,47,2971,193,146,146,0,146,0.1002,0.6865,0.6865
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,2971,47,2065,52,5,5,906,-901,0.1007,20.1463,20.1463
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,2971,47,2065,50,3,3,906,-903,0.1256,41.8519,41.8519
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,2971,47,2065,2064,2017,2017,906,1111,0.0989,0.0491,0.0491
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,None,None,--,not_applied,baseline_no_resampling,2971,47,2971,47,0,0,0,0,0.0009,,
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,SMOTE,Baseline,--,success,fit_resample,2971,47,2971,2971,2924,2924,0,2924,0.0054,0.0019,0.0019
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,ADASYN,Baseline,--,success,fit_resample,2971,47,2971,2959,2912,2912,0,2912,0.0141,0.0048,0.0048
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,BorderlineSMOTE,Baseline,--,success,fit_resample,2971,47,2971,2971,2924,2924,0,2924,0.0152,0.0052,0.0052
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",2971,47,2971,2971,2924,2924,0,2924,0.0468,0.016,0.016
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,SVMSMOTE,Baseline,--,success,fit_resample,2971,47,2971,2971,2924,2924,0,2924,0.0698,0.0239,0.0239
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,2971,47,2068,249,202,202,903,-701,0.1106,0.5478,0.5478
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,2971,47,2068,148,101,101,903,-802,0.1511,1.4962,1.4962
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,2971,47,2971,339,292,292,0,292,0.0315,0.1079,0.1079
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,2971,47,2971,193,146,146,0,146,0.1111,0.761,0.761
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,2971,47,2068,52,5,5,903,-898,0.1,20.0013,20.0013
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,2971,47,2068,50,3,3,903,-900,0.1286,42.855,42.855
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,2971,47,2068,2062,2015,2015,903,1112,0.1041,0.0517,0.0517
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,None,None,--,not_applied,baseline_no_resampling,2972,46,2972,46,0,0,0,0,0.0009,,
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,SMOTE,Baseline,--,success,fit_resample,2972,46,2972,2972,2926,2926,0,2926,0.0061,0.0021,0.0021
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,ADASYN,Baseline,--,success,fit_resample,2972,46,2972,2972,2926,2926,0,2926,0.0079,0.0027,0.0027
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,BorderlineSMOTE,Baseline,--,success,fit_resample,2972,46,2972,2972,2926,2926,0,2926,0.0136,0.0046,0.0046
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",2972,46,2973,2972,2926,2926,0,2927,0.3716,0.127,0.127
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,SVMSMOTE,Baseline,--,success,fit_resample,2972,46,2972,2972,2926,2926,0,2926,0.0583,0.0199,0.0199
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,2972,46,2082,252,206,206,890,-684,0.1076,0.5224,0.5224
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,2972,46,2082,149,103,103,890,-787,0.1724,1.6742,1.6742
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,2972,46,2972,339,293,293,0,293,0.0285,0.0973,0.0973
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,2972,46,2972,193,147,147,0,147,0.0956,0.6502,0.6502
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,2972,46,2082,51,5,5,890,-885,0.1022,20.4463,20.4463
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,2972,46,2082,49,3,3,890,-887,0.1489,49.6173,49.6173
+Diabetes (DIS),dis,40713,3772,29,64.0345,Extreme,10 < Features <= 30,2,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,2972,46,2097,2082,2036,2036,875,1161,0.1085,0.0533,0.0533
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,None,None,--,not_applied,baseline_no_resampling,4020,60,4020,60,0,0,0,0,0.0009,,
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,SMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0076,0.0019,0.0019
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,ADASYN,Baseline,--,success,fit_resample,4020,60,4027,4020,3960,3960,0,3967,0.0209,0.0053,0.0053
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,BorderlineSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0103,0.0026,0.0026
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4020,60,4021,4020,3960,3960,0,3961,0.0478,0.0121,0.0121
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,SVMSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0763,0.0193,0.0193
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4020,60,3173,99,39,39,847,-808,0.9397,24.0939,24.0939
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4020,60,3173,540,480,480,847,-367,1.0218,2.1288,2.1288
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4020,60,4020,103,43,43,0,43,0.0212,0.4922,0.4922
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4020,60,4020,526,466,466,0,466,0.08,0.1717,0.1717
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4020,60,3173,62,2,2,847,-845,0.9147,457.3534,457.3534
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4020,60,3173,65,5,5,847,-842,1.9814,396.2795,396.2795
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4020,60,3177,3173,3113,3113,843,2270,1.7462,0.561,0.561
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,None,None,--,not_applied,baseline_no_resampling,4020,60,4020,60,0,0,0,0,0.0012,,
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,SMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0074,0.0019,0.0019
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,ADASYN,Baseline,--,success,fit_resample,4020,60,4033,4020,3960,3960,0,3973,0.0103,0.0026,0.0026
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,BorderlineSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0171,0.0043,0.0043
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4020,60,4022,4020,3960,3960,0,3962,0.0457,0.0115,0.0115
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,SVMSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0451,0.0114,0.0114
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4020,60,3163,106,46,46,857,-811,2.2247,48.3633,48.3633
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4020,60,3163,632,572,572,857,-285,1.6327,2.8543,2.8543
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4020,60,4020,71,11,11,0,11,0.0212,1.9262,1.9262
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4020,60,4020,782,722,722,0,722,0.0776,0.1075,0.1075
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4020,60,3163,61,1,1,857,-856,0.6394,639.3569,639.3569
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4020,60,3163,64,4,4,857,-853,0.8038,200.9391,200.9391
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4020,60,3165,3163,3103,3103,855,2248,0.806,0.2597,0.2597
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,None,None,--,not_applied,baseline_no_resampling,4020,60,4020,60,0,0,0,0,0.0017,,
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,SMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0105,0.0027,0.0027
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,ADASYN,Baseline,--,success,fit_resample,4020,60,4029,4020,3960,3960,0,3969,0.0109,0.0027,0.0027
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,BorderlineSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0108,0.0027,0.0027
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4020,60,4022,4020,3960,3960,0,3962,0.5707,0.1441,0.1441
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,SVMSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0464,0.0117,0.0117
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4020,60,3164,75,15,15,856,-841,0.6938,46.2559,46.2559
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4020,60,3164,472,412,412,856,-444,0.7606,1.8462,1.8462
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4020,60,4020,96,36,36,0,36,0.0902,2.5051,2.5051
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4020,60,4020,573,513,513,0,513,0.1934,0.377,0.377
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4020,60,3164,61,1,1,856,-855,0.9286,928.5629,928.5629
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4020,60,3164,62,2,2,856,-854,0.7765,388.2669,388.2669
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4020,60,3168,3164,3104,3104,852,2252,0.8236,0.2653,0.2653
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,None,None,--,not_applied,baseline_no_resampling,4020,60,4020,60,0,0,0,0,0.0009,,
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,SMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0071,0.0018,0.0018
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,ADASYN,Baseline,--,success,fit_resample,4020,60,4024,4020,3960,3960,0,3964,0.0678,0.0171,0.0171
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,BorderlineSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.011,0.0028,0.0028
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",4020,60,4020,4020,3960,3960,0,3960,0.0397,0.01,0.01
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,SVMSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0433,0.0109,0.0109
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4020,60,3170,61,1,1,850,-849,1.0334,1033.3514,1033.3514
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4020,60,3170,567,507,507,850,-343,1.0692,2.109,2.109
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4020,60,4020,63,3,3,0,3,0.0195,6.4887,6.4887
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4020,60,4020,832,772,772,0,772,0.0785,0.1016,0.1016
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4020,60,3170,62,2,2,850,-848,0.6135,306.7443,306.7443
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4020,60,3170,66,6,6,850,-844,0.7926,132.1054,132.1054
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4020,60,3178,3170,3110,3110,842,2268,1.0016,0.3221,0.3221
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,None,None,--,not_applied,baseline_no_resampling,4020,60,4020,60,0,0,0,0,0.0009,,
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,SMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0074,0.0019,0.0019
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,ADASYN,Baseline,--,success,fit_resample,4020,60,4029,4020,3960,3960,0,3969,0.0104,0.0026,0.0026
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,BorderlineSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0109,0.0028,0.0028
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4020,60,4021,4020,3960,3960,0,3961,0.0489,0.0124,0.0124
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,SVMSMOTE,Baseline,--,success,fit_resample,4020,60,4020,4020,3960,3960,0,3960,0.0632,0.016,0.016
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4020,60,3173,74,14,14,847,-833,0.7678,54.8455,54.8455
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4020,60,3173,585,525,525,847,-322,0.8206,1.5631,1.5631
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4020,60,4020,69,9,9,0,9,0.0837,9.3033,9.3033
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4020,60,4020,320,260,260,0,260,0.1899,0.7304,0.7304
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4020,60,3173,62,2,2,847,-845,1.0587,529.3649,529.3649
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4020,60,3173,66,6,6,847,-841,0.9085,151.4132,151.4132
+Satellite,Satellite,40900,5100,36,67.0,Extreme,Features > 30,3,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4020,60,3185,3173,3113,3113,835,2278,0.7577,0.2434,0.2434
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,None,None,--,not_applied,baseline_no_resampling,4038,458,4038,458,0,0,0,0,0.001,,
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,SMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0131,0.0037,0.0037
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,ADASYN,Baseline,--,success,fit_resample,4038,458,4045,4038,3580,3580,0,3587,0.1486,0.0415,0.0415
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,BorderlineSMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.034,0.0095,0.0095
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4038,458,4039,4038,3580,3580,0,3581,0.7074,0.1976,0.1976
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,SVMSMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0875,0.0244,0.0244
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4038,458,3453,480,22,22,585,-563,0.7653,34.7878,34.7878
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4038,458,3453,785,327,327,585,-258,0.8061,2.4652,2.4652
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4038,458,4038,588,130,130,0,130,0.142,1.092,1.092
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4038,458,4038,815,357,357,0,357,0.3754,1.0514,1.0514
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4038,458,3453,486,28,28,585,-557,1.004,35.8576,35.8576
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4038,458,3453,467,9,9,585,-576,0.6325,70.279,70.279
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4038,458,3453,3453,2995,2995,585,2410,0.997,0.3329,0.3329
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,None,None,--,not_applied,baseline_no_resampling,4038,458,4038,458,0,0,0,0,0.0009,,
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,SMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0117,0.0033,0.0033
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,ADASYN,Baseline,--,success,fit_resample,4038,458,4040,4038,3580,3580,0,3582,0.0277,0.0077,0.0077
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,BorderlineSMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0277,0.0077,0.0077
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4038,458,4040,4038,3580,3580,0,3582,1.2433,0.3473,0.3473
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,SVMSMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0962,0.0269,0.0269
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4038,458,3455,505,47,47,583,-536,0.8123,17.2836,17.2836
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4038,458,3455,776,318,318,583,-265,1.1133,3.5008,3.5008
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4038,458,4038,589,131,131,0,131,0.1273,0.9719,0.9719
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4038,458,4038,836,378,378,0,378,0.3348,0.8856,0.8856
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4038,458,3455,493,35,35,583,-548,0.714,20.3991,20.3991
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4038,458,3455,463,5,5,583,-578,0.8588,171.7559,171.7559
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4038,458,3460,3455,2997,2997,578,2419,0.6753,0.2253,0.2253
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,None,None,--,not_applied,baseline_no_resampling,4038,458,4038,458,0,0,0,0,0.0009,,
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,SMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0248,0.0069,0.0069
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,ADASYN,Baseline,--,success,fit_resample,4038,458,4038,4032,3574,3574,0,3574,0.0339,0.0095,0.0095
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,BorderlineSMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.0272,0.0076,0.0076
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4038,458,4040,4038,3580,3580,0,3582,0.3555,0.0993,0.0993
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,SVMSMOTE,Baseline,--,success,fit_resample,4038,458,4038,4038,3580,3580,0,3580,0.1046,0.0292,0.0292
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4038,458,3471,465,7,7,567,-560,0.9004,128.6232,128.6232
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4038,458,3471,805,347,347,567,-220,1.042,3.0028,3.0028
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4038,458,4038,617,159,159,0,159,0.1752,1.1017,1.1017
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4038,458,4038,875,417,417,0,417,0.3566,0.8551,0.8551
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4038,458,3471,492,34,34,567,-533,0.8572,25.2131,25.2131
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4038,458,3471,471,13,13,567,-554,0.9457,72.7487,72.7487
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4038,458,3471,3463,3005,3005,567,2438,0.6413,0.2134,0.2134
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,None,None,--,not_applied,baseline_no_resampling,4039,457,4039,457,0,0,0,0,0.0009,,
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,SMOTE,Baseline,--,success,fit_resample,4039,457,4039,4039,3582,3582,0,3582,0.056,0.0156,0.0156
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,ADASYN,Baseline,--,success,fit_resample,4039,457,4045,4039,3582,3582,0,3588,0.028,0.0078,0.0078
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,BorderlineSMOTE,Baseline,--,success,fit_resample,4039,457,4039,4039,3582,3582,0,3582,0.0264,0.0074,0.0074
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4039,457,4041,4039,3582,3582,0,3584,0.7738,0.216,0.216
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,SVMSMOTE,Baseline,--,success,fit_resample,4039,457,4039,4039,3582,3582,0,3582,0.0875,0.0244,0.0244
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4039,457,3466,464,7,7,573,-566,0.93,132.8621,132.8621
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4039,457,3466,774,317,317,573,-256,1.1175,3.5251,3.5251
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4039,457,4039,574,117,117,0,117,0.1011,0.8642,0.8642
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4039,457,4039,865,408,408,0,408,0.328,0.8039,0.8039
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4039,457,3466,479,22,22,573,-551,0.7772,35.3268,35.3268
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4039,457,3466,465,8,8,573,-565,0.9703,121.2924,121.2924
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4039,457,3472,3466,3009,3009,567,2442,0.969,0.322,0.322
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,None,None,--,not_applied,baseline_no_resampling,4039,457,4039,457,0,0,0,0,0.0009,,
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,SMOTE,Baseline,--,success,fit_resample,4039,457,4039,4039,3582,3582,0,3582,0.015,0.0042,0.0042
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,ADASYN,Baseline,--,success,fit_resample,4039,457,4039,4036,3579,3579,0,3579,0.0275,0.0077,0.0077
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,BorderlineSMOTE,Baseline,--,success,fit_resample,4039,457,4039,4039,3582,3582,0,3582,0.0265,0.0074,0.0074
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",4039,457,4041,4039,3582,3582,0,3584,1.3041,0.3641,0.3641
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,SVMSMOTE,Baseline,--,success,fit_resample,4039,457,4039,4039,3582,3582,0,3582,0.087,0.0243,0.0243
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,4039,457,3460,496,39,39,579,-540,0.687,17.6164,17.6164
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,4039,457,3460,936,479,479,579,-100,2.121,4.428,4.428
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,4039,457,4039,687,230,230,0,230,0.0692,0.3008,0.3008
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,4039,457,4039,948,491,491,0,491,0.1613,0.3285,0.3285
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,4039,457,3460,514,57,57,579,-522,0.8721,15.3009,15.3009
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,4039,457,3460,464,7,7,579,-572,0.9022,128.8869,128.8869
+Optdigits,optdigits,980,5620,64,8.8252,Medium,Features > 30,3,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,4039,457,3460,3454,2997,2997,579,2418,1.0266,0.3426,0.3426
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0032,,
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0049,0.0039,0.0039
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0085,0.0067,0.0067
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0085,0.0067,0.0067
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.2236,0.1747,0.1747
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.054,0.0422,0.0422
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1367,281,121,121,73,48,0.1166,0.964,0.964
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1367,238,78,78,73,5,0.1511,1.9371,1.9371
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,288,128,128,0,128,0.0302,0.2358,0.2358
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,268,108,108,0,108,0.0901,0.8346,0.8346
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1367,176,16,16,73,-57,0.112,6.9998,6.9998
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1367,162,2,2,73,-71,0.1261,63.0393,63.0393
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1367,1365,1205,1205,73,1132,0.1112,0.0922,0.0922
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0049,0.0038,0.0038
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0136,0.0107,0.0107
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0088,0.0069,0.0069
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",1440,160,1441,1440,1280,1280,0,1281,0.0643,0.0503,0.0503
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.1654,0.1292,0.1292
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1367,281,121,121,73,48,0.1158,0.9573,0.9573
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1367,279,119,119,73,46,0.1464,1.2306,1.2306
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,288,128,128,0,128,0.017,0.1325,0.1325
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,294,134,134,0,134,0.0515,0.3842,0.3842
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1367,176,16,16,73,-57,0.1019,6.3685,6.3685
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1367,162,2,2,73,-71,0.5932,296.5893,296.5893
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1367,1365,1205,1205,73,1132,0.1395,0.1158,0.1158
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.001,,
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.005,0.0039,0.0039
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1439,1279,1279,0,1279,0.0085,0.0067,0.0067
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0762,0.0595,0.0595
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",1440,160,1441,1440,1280,1280,0,1281,0.0535,0.0418,0.0418
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0315,0.0246,0.0246
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1360,163,3,3,80,-77,0.1075,35.8354,35.8354
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1360,324,164,164,80,84,0.5249,3.2005,3.2005
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,162,2,2,0,2,0.0157,7.8284,7.8284
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,348,188,188,0,188,0.0541,0.2879,0.2879
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1360,165,5,5,80,-75,0.1006,20.1115,20.1115
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1360,162,2,2,80,-78,0.1216,60.7921,60.7921
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1360,1358,1198,1198,80,1118,0.1026,0.0856,0.0856
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0028,,
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0055,0.0043,0.0043
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1439,1279,1279,0,1279,0.0325,0.0254,0.0254
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0086,0.0067,0.0067
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.0281,0.022,0.022
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.1573,0.1229,0.1229
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1372,282,122,122,68,54,0.1147,0.9399,0.9399
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1372,289,129,129,68,61,0.1582,1.2263,1.2263
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,288,128,128,0,128,0.0188,0.1469,0.1469
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,284,124,124,0,124,0.0564,0.4547,0.4547
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1372,161,1,1,68,-67,1.2276,1227.5651,1227.5651
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1372,161,1,1,68,-67,0.1285,128.5083,128.5083
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1376,1372,1212,1212,64,1148,0.1157,0.0954,0.0954
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0051,0.004,0.004
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,ADASYN,Baseline,--,success,fit_resample,1440,160,1442,1440,1280,1280,0,1282,0.0141,0.011,0.011
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0085,0.0066,0.0066
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",1440,160,1441,1440,1280,1280,0,1281,0.0529,0.0413,0.0413
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0311,0.0243,0.0243
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1364,162,2,2,76,-74,0.4616,230.7863,230.7863
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1364,257,97,97,76,21,0.1419,1.4629,1.4629
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,289,129,129,0,129,0.0161,0.1251,0.1251
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,282,122,122,0,122,0.0536,0.4393,0.4393
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1364,176,16,16,76,-60,0.1061,6.6298,6.6298
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1364,161,1,1,76,-75,0.5819,581.9242,581.9242
+Mfeat-karhunen,mfeat-karhunen,1020,2000,64,9.0,Medium,Features > 30,3,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1364,1364,1204,1204,76,1128,0.7173,0.5957,0.5957
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0075,0.0058,0.0058
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0109,0.0085,0.0085
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,160,0,0,0,0,0.0126,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.069,0.0539,0.0539
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,736,576,576,0,576,0.0252,0.0438,0.0438
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1300,314,154,154,140,14,0.1354,0.8793,0.8793
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1300,204,44,44,140,-96,0.1867,4.243,4.243
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,373,213,213,0,213,0.0181,0.085,0.085
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,221,61,61,0,61,0.0426,0.699,0.699
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1300,165,5,5,140,-135,1.3579,271.5885,271.5885
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1300,161,1,1,140,-139,0.418,418.0241,418.0241
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,1,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1300,1300,1140,1140,140,1000,0.1341,0.1177,0.1177
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0053,0.0041,0.0041
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.009,0.0071,0.0071
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0754,0.0589,0.0589
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.4404,0.3441,0.3441
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0409,0.032,0.032
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1305,334,174,174,135,39,0.1257,0.7227,0.7227
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1305,301,141,141,135,6,0.1543,1.0942,1.0942
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,182,22,22,0,22,0.0161,0.7297,0.7297
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,342,182,182,0,182,0.0859,0.4719,0.4719
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1305,163,3,3,135,-132,0.9423,314.0932,314.0932
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1305,161,1,1,135,-134,0.128,128.0434,128.0434
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,2,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1305,1305,1145,1145,135,1010,0.1222,0.1068,0.1068
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0053,0.0041,0.0041
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0094,0.0073,0.0073
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,160,0,0,0,0,0.0326,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.0286,0.0223,0.0223
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,736,576,576,0,576,0.0236,0.0411,0.0411
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1305,319,159,159,135,24,0.1419,0.8927,0.8927
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1305,179,19,19,135,-116,0.1672,8.7994,8.7994
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,241,81,81,0,81,0.0167,0.2064,0.2064
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,205,45,45,0,45,0.0781,1.7345,1.7345
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1305,176,16,16,135,-119,1.3654,85.3367,85.3367
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1305,161,1,1,135,-134,0.145,144.9795,144.9795
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,3,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1305,1304,1144,1144,135,1009,0.1348,0.1178,0.1178
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0054,0.0042,0.0042
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,ADASYN,Baseline,--,failed_fallback_original,Not any neigbours belong to the majority class. This case will induce a NaN case with a division by zero. ADASYN is not suited for this specific dataset. Use SMOTE instead.,1440,160,1440,160,0,0,0,0,0.0065,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,160,0,0,0,0,0.0314,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": ""auto"", ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.1049,0.0819,0.0819
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,736,576,576,0,576,0.0242,0.0421,0.0421
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1297,160,0,0,143,-143,0.1325,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1297,160,0,0,143,-143,0.1254,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,160,0,0,0,0,0.0073,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,160,0,0,0,0,0.0075,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1297,164,4,4,143,-139,1.2764,319.0892,319.0892
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1297,168,8,8,143,-135,0.1436,17.9552,17.9552
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,4,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1297,160,0,0,143,-143,0.1286,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,None,None,--,not_applied,baseline_no_resampling,1440,160,1440,160,0,0,0,0,0.0009,,
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,SMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.006,0.0047,0.0047
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,ADASYN,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0094,0.0074,0.0074
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,BorderlineSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0427,0.0334,0.0334
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,KMeansSMOTE,Baseline,--,success,"{""k_neighbors"": 5, ""cluster_balance_threshold"": 0.0, ""kmeans_estimator"": ""default""}",1440,160,1440,1440,1280,1280,0,1280,0.0456,0.0356,0.0356
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,SVMSMOTE,Baseline,--,success,fit_resample,1440,160,1440,1440,1280,1280,0,1280,0.0244,0.0191,0.0191
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,Full BSSMOTE Linear,Full BSSMOTE,Linear,success,fit_resample,1440,160,1304,190,30,30,136,-106,0.1616,5.3881,5.3881
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,Full BSSMOTE RBF,Full BSSMOTE,RBF,success,fit_resample,1440,160,1304,316,156,156,136,20,0.1841,1.1801,1.1801
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,BSSMOTE w/o Clustering Linear,w/o Clustering,Linear,success,fit_resample,1440,160,1440,288,128,128,0,128,0.0166,0.13,0.13
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,BSSMOTE w/o Clustering RBF,w/o Clustering,RBF,success,fit_resample,1440,160,1440,368,208,208,0,208,0.0707,0.34,0.34
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,BSSMOTE w/o ADASYN Linear,w/o ADASYN,Linear,success,fit_resample,1440,160,1304,171,11,11,136,-125,0.4564,41.4919,41.4919
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,BSSMOTE w/o ADASYN RBF,w/o ADASYN,RBF,success,fit_resample,1440,160,1304,161,1,1,136,-135,0.1585,158.5026,158.5026
+Mfeat-fourier,mfeat-fourier,971,2000,76,9.0,Medium,Features > 30,3,5,BSSMOTE w/o SVM,w/o SVM,--,success,fit_resample,1440,160,1304,1304,1144,1144,136,1008,0.1529,0.1336,0.1336

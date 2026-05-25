@@ -1,0 +1,15 @@
+Dataset,Dataset_File,OpenML_ID,Source,Target_Type_Source,Target_Rule,Minority_Original_Label,Majority_Original_Label,Minority_Encoded,Majority_Encoded,Minority_Count,Majority_Count,Computed_IR,Target_Detail
+Haberman,haberman,43,sklearn_openml_direct,binary,existing_binary_standardized,2,1,1,0,81,225,2.7778,minority_label_encoded_as_1; majority_label_encoded_as_0
+Blood-transfusion,blood-transfusion-service-center,1464,sklearn_openml_direct,binary,existing_binary_standardized,2,1,1,0,178,570,3.2022,minority_label_encoded_as_1; majority_label_encoded_as_0
+Wilt,wilt,40983,sklearn_openml_direct,binary,existing_binary_standardized,2,1,1,0,261,4578,17.5402,minority_label_encoded_as_1; majority_label_encoded_as_0
+Wholesale-customers,wholesale-customers,1511,sklearn_openml_direct,binary,existing_binary_standardized,2,1,1,0,142,298,2.0986,minority_label_encoded_as_1; majority_label_encoded_as_0
+Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,sklearn_openml_direct,binary,existing_binary_standardized,1,0,1,0,1639,16259,9.9201,minority_label_encoded_as_1; majority_label_encoded_as_0
+Mammography,mammography,310,sklearn_openml_direct,binary,existing_binary_standardized,1,-1,1,0,260,10923,42.0115,minority_label_encoded_as_1; majority_label_encoded_as_0
+Elevators,elevators,846,sklearn_openml_direct,binary,existing_binary_standardized,n,p,1,0,5130,11469,2.2357,minority_label_encoded_as_1; majority_label_encoded_as_0
+CPU small,cpu_small,735,sklearn_openml_direct,binary,existing_binary_standardized,p,n,1,0,2477,5715,2.3072,minority_label_encoded_as_1; majority_label_encoded_as_0
+Vehicle,vehicle,994,sklearn_openml_direct,binary,existing_binary_standardized,p,n,1,0,218,628,2.8807,minority_label_encoded_as_1; majority_label_encoded_as_0
+Diabetes (DIS),dis,40713,sklearn_openml_direct,binary,existing_binary_standardized,0,1,1,0,58,3714,64.0345,minority_label_encoded_as_1; majority_label_encoded_as_0
+Satellite,Satellite,40900,sklearn_openml_direct,binary,existing_binary_standardized,anomaly,normal,1,0,75,5025,67.0,minority_label_encoded_as_1; majority_label_encoded_as_0
+Optdigits,optdigits,980,sklearn_openml_direct,binary,existing_binary_standardized,p,n,1,0,572,5048,8.8252,minority_label_encoded_as_1; majority_label_encoded_as_0
+Mfeat-karhunen,mfeat-karhunen,1020,sklearn_openml_direct,binary,existing_binary_standardized,p,n,1,0,200,1800,9.0,minority_label_encoded_as_1; majority_label_encoded_as_0
+Mfeat-fourier,mfeat-fourier,971,sklearn_openml_direct,binary,existing_binary_standardized,p,n,1,0,200,1800,9.0,minority_label_encoded_as_1; majority_label_encoded_as_0

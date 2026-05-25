@@ -1,0 +1,13 @@
+Model,Metric,Status,Message,N_Datasets,N_Methods
+DT,Precision,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_DT_Precision.png,14,13
+DT,Recall,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_DT_Recall.png,14,13
+DT,AUC_PR,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_DT_AUC_PR.png,14,13
+DT,GMean,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_DT_GMean.png,14,13
+RF,Precision,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_RF_Precision.png,14,13
+RF,Recall,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_RF_Recall.png,14,13
+RF,AUC_PR,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_RF_AUC_PR.png,14,13
+RF,GMean,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_RF_GMean.png,14,13
+LightGBM,Precision,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_LightGBM_Precision.png,14,13
+LightGBM,Recall,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_LightGBM_Recall.png,14,13
+LightGBM,AUC_PR,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_LightGBM_AUC_PR.png,14,13
+LightGBM,GMean,success,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/results/openml/bssmote_update/statistics/critical_difference/cd_diagram_LightGBM_GMean.png,14,13

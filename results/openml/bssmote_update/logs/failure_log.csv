@@ -1,0 +1,2 @@
+Dataset,Dataset_File,Fold,Oversampler,Model,Stage,Status,Message
+Mfeat-fourier,mfeat-fourier,4,ADASYN,,resampling,failed_fallback_original,Not any neigbours belong to the majority class. This case will induce a NaN case with a division by zero. ADASYN is not suited for this specific dataset. Use SMOTE instead.

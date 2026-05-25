@@ -1,0 +1,381 @@
+Feature_Interval,Feature_Interval_Order,Dataset,Dataset_File,OpenML_ID,Oversampler,Stage,MajorityCount,MinorityCount,Generated_Samples
+10 < Features <= 30,2,CPU small,cpu_small,735,ADASYN,After OS,5728.75,5672.5085,3195.5085
+10 < Features <= 30,2,CPU small,cpu_small,735,ADASYN,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o ADASYN Linear,After OS,4428.0,2725.75,248.75
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o ADASYN Linear,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o ADASYN RBF,After OS,4428.0,2558.2484,81.2484
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o ADASYN RBF,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o Clustering Linear,After OS,5715.0,3005.7486,528.7486
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o Clustering Linear,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o Clustering RBF,After OS,5715.0,2975.2524,498.2524
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o Clustering RBF,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o SVM,After OS,4428.0,4384.2552,1907.2552
+10 < Features <= 30,2,CPU small,cpu_small,735,BSSMOTE w/o SVM,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,BorderlineSMOTE,After OS,5715.0,5715.0003,3238.0003
+10 < Features <= 30,2,CPU small,cpu_small,735,BorderlineSMOTE,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,Full BSSMOTE Linear,After OS,4428.0,2668.2505,191.2505
+10 < Features <= 30,2,CPU small,cpu_small,735,Full BSSMOTE Linear,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,Full BSSMOTE RBF,After OS,4428.0,2729.2494,252.2494
+10 < Features <= 30,2,CPU small,cpu_small,735,Full BSSMOTE RBF,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,KMeansSMOTE,After OS,5717.5,5715.0003,3238.0003
+10 < Features <= 30,2,CPU small,cpu_small,735,KMeansSMOTE,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,None,After OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,None,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,SMOTE,After OS,5715.0,5715.0003,3238.0003
+10 < Features <= 30,2,CPU small,cpu_small,735,SMOTE,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,CPU small,cpu_small,735,SVMSMOTE,After OS,5715.0,5715.0003,3238.0003
+10 < Features <= 30,2,CPU small,cpu_small,735,SVMSMOTE,Before OS,5715.0,2477.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,ADASYN,After OS,3715.0001,3704.7084,3646.7084
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,ADASYN,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o ADASYN Linear,After OS,2588.2491,64.2507,6.2507
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o ADASYN Linear,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o ADASYN RBF,After OS,2588.2491,61.2461,3.2461
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o ADASYN RBF,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o Clustering Linear,After OS,3714.0,423.2927,365.2927
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o Clustering Linear,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o Clustering RBF,After OS,3714.0,241.0246,183.0246
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o Clustering RBF,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o SVM,After OS,2594.7483,2586.8537,2528.8537
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BSSMOTE w/o SVM,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BorderlineSMOTE,After OS,3714.0,3714.4144,3656.4144
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,BorderlineSMOTE,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,Full BSSMOTE Linear,After OS,2588.2491,312.2932,254.2932
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,Full BSSMOTE Linear,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,Full BSSMOTE RBF,After OS,2588.2491,147.6988,89.6988
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,Full BSSMOTE RBF,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,KMeansSMOTE,After OS,3714.75,3714.4144,3656.4144
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,KMeansSMOTE,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,None,After OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,None,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,SMOTE,After OS,3714.0,3714.4144,3656.4144
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,SMOTE,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,SVMSMOTE,After OS,3714.0,2725.8927,2667.8927
+10 < Features <= 30,2,Diabetes (DIS),dis,40713,SVMSMOTE,Before OS,3714.0,58.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,ADASYN,After OS,11500.0005,11458.5,6328.5
+10 < Features <= 30,2,Elevators,elevators,846,ADASYN,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o ADASYN Linear,After OS,9149.9999,5151.25,21.25
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o ADASYN Linear,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o ADASYN RBF,After OS,9149.9999,5537.5,407.5
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o ADASYN RBF,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o Clustering Linear,After OS,11469.0,5386.25,256.25
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o Clustering Linear,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o Clustering RBF,After OS,11469.0,5929.75,799.75
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o Clustering RBF,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o SVM,After OS,9149.9999,8840.0,3710.0
+10 < Features <= 30,2,Elevators,elevators,846,BSSMOTE w/o SVM,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,BorderlineSMOTE,After OS,11469.0,11469.0,6339.0
+10 < Features <= 30,2,Elevators,elevators,846,BorderlineSMOTE,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,Full BSSMOTE Linear,After OS,9149.9999,5501.5,371.5
+10 < Features <= 30,2,Elevators,elevators,846,Full BSSMOTE Linear,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,Full BSSMOTE RBF,After OS,9149.9999,5655.75,525.75
+10 < Features <= 30,2,Elevators,elevators,846,Full BSSMOTE RBF,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,KMeansSMOTE,After OS,11470.0,11469.0,6339.0
+10 < Features <= 30,2,Elevators,elevators,846,KMeansSMOTE,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,None,After OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,None,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,SMOTE,After OS,11469.0,11469.0,6339.0
+10 < Features <= 30,2,Elevators,elevators,846,SMOTE,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Elevators,elevators,846,SVMSMOTE,After OS,11469.0,11469.0,6339.0
+10 < Features <= 30,2,Elevators,elevators,846,SVMSMOTE,Before OS,11469.0,5130.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,ADASYN,After OS,638.2532,624.7672,406.7672
+10 < Features <= 30,2,Vehicle,vehicle,994,ADASYN,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o ADASYN Linear,After OS,524.5011,229.5193,11.5193
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o ADASYN Linear,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o ADASYN RBF,After OS,524.5011,229.9989,11.9989
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o ADASYN RBF,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o Clustering Linear,After OS,628.0,246.756,28.756
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o Clustering Linear,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o Clustering RBF,After OS,628.0,263.9898,45.9898
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o Clustering RBF,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o SVM,After OS,527.0031,516.4903,298.4903
+10 < Features <= 30,2,Vehicle,vehicle,994,BSSMOTE w/o SVM,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,BorderlineSMOTE,After OS,628.0,628.0061,410.0061
+10 < Features <= 30,2,Vehicle,vehicle,994,BorderlineSMOTE,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,Full BSSMOTE Linear,After OS,524.5011,231.2404,13.2404
+10 < Features <= 30,2,Vehicle,vehicle,994,Full BSSMOTE Linear,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,Full BSSMOTE RBF,After OS,524.5011,250.244,32.244
+10 < Features <= 30,2,Vehicle,vehicle,994,Full BSSMOTE RBF,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,KMeansSMOTE,After OS,628.9993,628.0061,410.0061
+10 < Features <= 30,2,Vehicle,vehicle,994,KMeansSMOTE,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,None,After OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,None,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,SMOTE,After OS,628.0,628.0061,410.0061
+10 < Features <= 30,2,Vehicle,vehicle,994,SMOTE,Before OS,628.0,218.0,0.0
+10 < Features <= 30,2,Vehicle,vehicle,994,SVMSMOTE,After OS,628.0,628.0061,410.0061
+10 < Features <= 30,2,Vehicle,vehicle,994,SVMSMOTE,Before OS,628.0,218.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,ADASYN,After OS,575.5,564.2703,386.2703
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,ADASYN,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o ADASYN Linear,After OS,419.75,196.7502,18.7502
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o ADASYN Linear,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o ADASYN RBF,After OS,419.75,196.7485,18.7485
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o ADASYN RBF,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o Clustering Linear,After OS,570.0,201.0087,23.0087
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o Clustering Linear,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o Clustering RBF,After OS,570.0,188.7505,10.7505
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o Clustering RBF,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o SVM,After OS,434.75,418.0256,240.0256
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BSSMOTE w/o SVM,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BorderlineSMOTE,After OS,570.0,570.0067,392.0067
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,BorderlineSMOTE,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,Full BSSMOTE Linear,After OS,419.75,204.0014,26.0014
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,Full BSSMOTE Linear,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,Full BSSMOTE RBF,After OS,419.75,202.7478,24.7478
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,Full BSSMOTE RBF,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,KMeansSMOTE,After OS,574.0,570.0067,392.0067
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,KMeansSMOTE,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,None,After OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,None,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,SMOTE,After OS,570.0,570.0067,392.0067
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,SMOTE,Before OS,570.0,178.0,0.0
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,SVMSMOTE,After OS,570.0,570.0067,392.0067
+Features <= 10,1,Blood-transfusion,blood-transfusion-service-center,1464,SVMSMOTE,Before OS,570.0,178.0,0.0
+Features <= 10,1,Haberman,haberman,43,ADASYN,After OS,230.0,214.2333,133.2333
+Features <= 10,1,Haberman,haberman,43,ADASYN,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o ADASYN Linear,After OS,175.0,88.255,7.255
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o ADASYN Linear,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o ADASYN RBF,After OS,175.0,89.7503,8.7503
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o ADASYN RBF,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o Clustering Linear,After OS,225.0,84.9916,3.9916
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o Clustering Linear,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o Clustering RBF,After OS,225.0,90.977,9.977
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o Clustering RBF,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o SVM,After OS,178.0,172.7831,91.7831
+Features <= 10,1,Haberman,haberman,43,BSSMOTE w/o SVM,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,BorderlineSMOTE,After OS,225.0,225.0087,144.0087
+Features <= 10,1,Haberman,haberman,43,BorderlineSMOTE,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,Full BSSMOTE Linear,After OS,175.0,91.0043,10.0043
+Features <= 10,1,Haberman,haberman,43,Full BSSMOTE Linear,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,Full BSSMOTE RBF,After OS,175.0,90.2644,9.2644
+Features <= 10,1,Haberman,haberman,43,Full BSSMOTE RBF,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,KMeansSMOTE,After OS,225.0,225.0087,144.0087
+Features <= 10,1,Haberman,haberman,43,KMeansSMOTE,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,None,After OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,None,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,SMOTE,After OS,225.0,225.0087,144.0087
+Features <= 10,1,Haberman,haberman,43,SMOTE,Before OS,225.0,81.0,0.0
+Features <= 10,1,Haberman,haberman,43,SVMSMOTE,After OS,225.0,225.0087,144.0087
+Features <= 10,1,Haberman,haberman,43,SVMSMOTE,Before OS,225.0,81.0,0.0
+Features <= 10,1,Mammography,mammography,310,ADASYN,After OS,10944.2503,10923.0,10663.0
+Features <= 10,1,Mammography,mammography,310,ADASYN,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o ADASYN Linear,After OS,7506.5022,268.25,8.25
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o ADASYN Linear,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o ADASYN RBF,After OS,7506.5022,279.25,19.25
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o ADASYN RBF,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o Clustering Linear,After OS,10923.0,490.25,230.25
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o Clustering Linear,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o Clustering RBF,After OS,10923.0,971.5,711.5
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o Clustering RBF,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o SVM,After OS,7508.5022,7502.5,7242.5
+Features <= 10,1,Mammography,mammography,310,BSSMOTE w/o SVM,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,BorderlineSMOTE,After OS,10923.0,10923.0,10663.0
+Features <= 10,1,Mammography,mammography,310,BorderlineSMOTE,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,Full BSSMOTE Linear,After OS,7506.5022,985.0,725.0
+Features <= 10,1,Mammography,mammography,310,Full BSSMOTE Linear,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,Full BSSMOTE RBF,After OS,7506.5022,1068.0,808.0
+Features <= 10,1,Mammography,mammography,310,Full BSSMOTE RBF,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,KMeansSMOTE,After OS,10926.0001,10923.0,10663.0
+Features <= 10,1,Mammography,mammography,310,KMeansSMOTE,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,None,After OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,None,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,SMOTE,After OS,10923.0,10923.0,10663.0
+Features <= 10,1,Mammography,mammography,310,SMOTE,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Mammography,mammography,310,SVMSMOTE,After OS,10923.0,10923.0,10663.0
+Features <= 10,1,Mammography,mammography,310,SVMSMOTE,Before OS,10923.0,260.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,ADASYN,After OS,16293.5001,16240.0129,14601.0129
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,ADASYN,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o ADASYN Linear,After OS,12987.5002,1868.0004,229.0004
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o ADASYN Linear,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o ADASYN RBF,After OS,12987.5002,1672.2495,33.2495
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o ADASYN RBF,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o Clustering Linear,After OS,16259.0,2194.0001,555.0001
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o Clustering Linear,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o Clustering RBF,After OS,16259.0,2958.205,1319.205
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o Clustering RBF,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o SVM,After OS,12994.7498,12965.7515,11326.7515
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BSSMOTE w/o SVM,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BorderlineSMOTE,After OS,16259.0,16259.0016,14620.0016
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,BorderlineSMOTE,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,Full BSSMOTE Linear,After OS,12987.5002,2772.7503,1133.7503
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,Full BSSMOTE Linear,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,Full BSSMOTE RBF,After OS,12987.5002,2484.2141,845.2141
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,Full BSSMOTE RBF,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,KMeansSMOTE,After OS,16260.25,16259.0016,14620.0016
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,KMeansSMOTE,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,None,After OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,None,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,SMOTE,After OS,16259.0,16259.0016,14620.0016
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,SMOTE,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,SVMSMOTE,After OS,16259.0,16259.0016,14620.0016
+Features <= 10,1,Pulsar (HTRU2),Pulsar-Dataset-HTRU2,45558,SVMSMOTE,Before OS,16259.0,1639.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,ADASYN,After OS,303.2504,297.51,155.51
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,ADASYN,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o ADASYN Linear,After OS,232.7598,148.755,6.755
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o ADASYN Linear,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o ADASYN RBF,After OS,232.7598,165.2434,23.2434
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o ADASYN RBF,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o Clustering Linear,After OS,298.0,150.2563,8.2563
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o Clustering Linear,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o Clustering RBF,After OS,298.0,185.7596,43.7596
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o Clustering RBF,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o SVM,After OS,235.5092,230.992,88.992
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BSSMOTE w/o SVM,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BorderlineSMOTE,After OS,298.0,298.0082,156.0082
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,BorderlineSMOTE,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,Full BSSMOTE Linear,After OS,232.7598,151.7511,9.7511
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,Full BSSMOTE Linear,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,Full BSSMOTE RBF,After OS,232.7598,168.762,26.762
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,Full BSSMOTE RBF,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,KMeansSMOTE,After OS,299.4983,298.0082,156.0082
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,KMeansSMOTE,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,None,After OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,None,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,SMOTE,After OS,298.0,298.0082,156.0082
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,SMOTE,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,SVMSMOTE,After OS,298.0,298.0082,156.0082
+Features <= 10,1,Wholesale-customers,wholesale-customers,1511,SVMSMOTE,Before OS,298.0,142.0,0.0
+Features <= 10,1,Wilt,wilt,40983,ADASYN,After OS,4590.4998,4578.0176,4317.0176
+Features <= 10,1,Wilt,wilt,40983,ADASYN,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o ADASYN Linear,After OS,3682.7496,287.2501,26.2501
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o ADASYN Linear,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o ADASYN RBF,After OS,3682.7496,274.7501,13.7501
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o ADASYN RBF,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o Clustering Linear,After OS,4578.0,694.7528,433.7528
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o Clustering Linear,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o Clustering RBF,After OS,4578.0,478.0013,217.0013
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o Clustering RBF,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o SVM,After OS,3722.4997,3680.3017,3419.3017
+Features <= 10,1,Wilt,wilt,40983,BSSMOTE w/o SVM,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,BorderlineSMOTE,After OS,4578.0,4578.0176,4317.0176
+Features <= 10,1,Wilt,wilt,40983,BorderlineSMOTE,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,Full BSSMOTE Linear,After OS,3682.7496,607.2549,346.2549
+Features <= 10,1,Wilt,wilt,40983,Full BSSMOTE Linear,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,Full BSSMOTE RBF,After OS,3682.7496,434.5021,173.5021
+Features <= 10,1,Wilt,wilt,40983,Full BSSMOTE RBF,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,KMeansSMOTE,After OS,4583.0001,4578.0176,4317.0176
+Features <= 10,1,Wilt,wilt,40983,KMeansSMOTE,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,None,After OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,None,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,SMOTE,After OS,4578.0,4578.0176,4317.0176
+Features <= 10,1,Wilt,wilt,40983,SMOTE,Before OS,4578.0,261.0,0.0
+Features <= 10,1,Wilt,wilt,40983,SVMSMOTE,After OS,4578.0,4578.0176,4317.0176
+Features <= 10,1,Wilt,wilt,40983,SVMSMOTE,Before OS,4578.0,261.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,ADASYN,After OS,1800.0,1480.0,1280.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,ADASYN,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o ADASYN Linear,After OS,1627.75,209.75,9.75
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o ADASYN Linear,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o ADASYN RBF,After OS,1627.75,203.0,3.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o ADASYN RBF,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o Clustering Linear,After OS,1800.0,311.0,111.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o Clustering Linear,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o Clustering RBF,After OS,1800.0,324.0,124.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o Clustering RBF,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o SVM,After OS,1627.75,1343.25,1143.25
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BSSMOTE w/o SVM,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BorderlineSMOTE,After OS,1800.0,840.0,640.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,BorderlineSMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,CTGAN,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,CTGAN,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,Full BSSMOTE Linear,After OS,1627.75,329.25,129.25
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,Full BSSMOTE Linear,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,Full BSSMOTE RBF,After OS,1627.75,290.0,90.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,Full BSSMOTE RBF,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,KMeansSMOTE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,KMeansSMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,None,After OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,None,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,SMOTE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,SMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,SVMSMOTE,After OS,1800.0,1272.0,1072.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,SVMSMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,TVAE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-fourier,mfeat-fourier,971,TVAE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,ADASYN,After OS,1800.5,1799.5,1599.5
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,ADASYN,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o ADASYN Linear,After OS,1707.5,213.5,13.5
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o ADASYN Linear,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o ADASYN RBF,After OS,1707.5,202.0,2.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o ADASYN RBF,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o Clustering Linear,After OS,1800.0,328.75,128.75
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o Clustering Linear,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o Clustering RBF,After OS,1800.0,369.0,169.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o Clustering RBF,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o SVM,After OS,1708.5,1706.0,1506.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BSSMOTE w/o SVM,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BorderlineSMOTE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,BorderlineSMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,CTGAN,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,CTGAN,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,Full BSSMOTE Linear,After OS,1707.5,292.25,92.25
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,Full BSSMOTE Linear,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,Full BSSMOTE RBF,After OS,1707.5,346.75,146.75
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,Full BSSMOTE RBF,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,KMeansSMOTE,After OS,1800.75,1800.0,1600.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,KMeansSMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,None,After OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,None,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,SMOTE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,SMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,SVMSMOTE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,SVMSMOTE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,TVAE,After OS,1800.0,1800.0,1600.0
+Features > 30,3,Mfeat-karhunen,mfeat-karhunen,1020,TVAE,Before OS,1800.0,200.0,0.0
+Features > 30,3,Optdigits,optdigits,980,ADASYN,After OS,5051.75,5045.7568,4473.7568
+Features > 30,3,Optdigits,optdigits,980,ADASYN,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o ADASYN Linear,After OS,4326.2498,616.0048,44.0048
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o ADASYN Linear,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o ADASYN RBF,After OS,4326.2498,582.499,10.499
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o ADASYN RBF,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o Clustering Linear,After OS,5048.0,763.7722,191.7722
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o Clustering Linear,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o Clustering RBF,After OS,5048.0,1084.7935,512.7935
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o Clustering RBF,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o SVM,After OS,4328.9997,4322.7569,3750.7569
+Features > 30,3,Optdigits,optdigits,980,BSSMOTE w/o SVM,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,BorderlineSMOTE,After OS,5048.0,5048.0064,4476.0064
+Features > 30,3,Optdigits,optdigits,980,BorderlineSMOTE,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,CTGAN,After OS,5048.0,5048.0064,4476.0064
+Features > 30,3,Optdigits,optdigits,980,CTGAN,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,Full BSSMOTE Linear,After OS,4326.2498,602.4985,30.4985
+Features > 30,3,Optdigits,optdigits,980,Full BSSMOTE Linear,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,Full BSSMOTE RBF,After OS,4326.2498,1019.0447,447.0447
+Features > 30,3,Optdigits,optdigits,980,Full BSSMOTE RBF,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,KMeansSMOTE,After OS,5050.25,5048.0064,4476.0064
+Features > 30,3,Optdigits,optdigits,980,KMeansSMOTE,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,None,After OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,None,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,SMOTE,After OS,5048.0,5048.0064,4476.0064
+Features > 30,3,Optdigits,optdigits,980,SMOTE,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,SVMSMOTE,After OS,5048.0,5048.0064,4476.0064
+Features > 30,3,Optdigits,optdigits,980,SVMSMOTE,Before OS,5048.0,572.0,0.0
+Features > 30,3,Optdigits,optdigits,980,TVAE,After OS,5048.0,5048.0064,4476.0064
+Features > 30,3,Optdigits,optdigits,980,TVAE,Before OS,5048.0,572.0,0.0
+Features > 30,3,Satellite,Satellite,40900,ADASYN,After OS,5035.5,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,ADASYN,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o ADASYN Linear,After OS,3960.75,77.0,2.0
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o ADASYN Linear,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o ADASYN RBF,After OS,3960.75,80.75,5.75
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o ADASYN RBF,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o Clustering Linear,After OS,5025.0,100.5,25.5
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o Clustering Linear,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o Clustering RBF,After OS,5025.0,758.25,683.25
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o Clustering RBF,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o SVM,After OS,3968.25,3960.75,3885.75
+Features > 30,3,Satellite,Satellite,40900,BSSMOTE w/o SVM,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,BorderlineSMOTE,After OS,5025.0,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,BorderlineSMOTE,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,CTGAN,After OS,5025.0,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,CTGAN,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,Full BSSMOTE Linear,After OS,3960.75,103.75,28.75
+Features > 30,3,Satellite,Satellite,40900,Full BSSMOTE Linear,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,Full BSSMOTE RBF,After OS,3960.75,699.0,624.0
+Features > 30,3,Satellite,Satellite,40900,Full BSSMOTE RBF,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,KMeansSMOTE,After OS,5026.5,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,KMeansSMOTE,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,None,After OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,None,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,SMOTE,After OS,5025.0,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,SMOTE,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,SVMSMOTE,After OS,5025.0,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,SVMSMOTE,Before OS,5025.0,75.0,0.0
+Features > 30,3,Satellite,Satellite,40900,TVAE,After OS,5025.0,5025.0,4950.0
+Features > 30,3,Satellite,Satellite,40900,TVAE,Before OS,5025.0,75.0,0.0

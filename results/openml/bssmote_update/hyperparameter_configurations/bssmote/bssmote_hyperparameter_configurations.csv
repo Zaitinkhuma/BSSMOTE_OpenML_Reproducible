@@ -1,0 +1,8 @@
+Oversampler,Class,n_clusters,adasyn_neighbors,svm_margin,noise_scale,cluster_radius,svm_kernel,svm_C,svm_gamma,random_state,Removed_Component
+Full BSSMOTE Linear,BSSMOTE_Full,auto,auto,0.75,0.05,1.25,linear,1.0,scale,42,None
+Full BSSMOTE RBF,BSSMOTE_Full,auto,auto,0.75,0.05,1.25,rbf,1.0,scale,42,None
+BSSMOTE w/o Clustering Linear,BSSMOTE_NoClustering,not_applied,auto,0.75,0.05,not_applied,linear,1.0,scale,42,Majority-space clustering
+BSSMOTE w/o Clustering RBF,BSSMOTE_NoClustering,not_applied,auto,0.75,0.05,not_applied,rbf,1.0,scale,42,Majority-space clustering
+BSSMOTE w/o ADASYN Linear,BSSMOTE_NoADASYN,auto,not_applied,0.75,0.05,1.25,linear,1.0,scale,42,ADASYN generation
+BSSMOTE w/o ADASYN RBF,BSSMOTE_NoADASYN,auto,not_applied,0.75,0.05,1.25,rbf,1.0,scale,42,ADASYN generation
+BSSMOTE w/o SVM,BSSMOTE_NoSVM,auto,auto,not_applied,not_applied,1.25,not_applied,not_applied,not_applied,42,SVM boundary refinement

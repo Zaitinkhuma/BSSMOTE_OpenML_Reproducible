@@ -1,0 +1,4 @@
+Dataset,Dataset_File,OpenML_ID,OpenML_URL,Source,Instances,Features,IR,IR_Category,Feature_Interval,Feature_Interval_Order,Majority_Count,Minority_Count,Loaded_Path
+Blood-transfusion,blood-transfusion-service-center,1464,https://www.openml.org/d/1464,sklearn_openml_direct,748,4,3.2022,Low,Features <= 10,1,570,178,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/data/openml/blood-transfusion-service-center.joblib
+CPU small,cpu_small,735,https://www.openml.org/d/735,sklearn_openml_direct,8192,12,2.3072,Low,10 < Features <= 30,2,5715,2477,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/data/openml/cpu_small.joblib
+Mfeat-fourier,mfeat-fourier,971,https://www.openml.org/d/971,sklearn_openml_direct,2000,76,9.0,Medium,Features > 30,3,1800,200,/content/drive/MyDrive/BSSMOTE_OpenML_Reproducible_update/data/openml/mfeat-fourier.joblib
