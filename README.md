@@ -115,8 +115,119 @@ The imbalance-ratio categories are defined as follows:
 - Feature Interval is defined using the number of input features.
 - These datasets are used for evaluating BSSMOTE, its ablation variants, traditional oversampling baselines, and deep tabular oversampling methods under a fold-wise preprocessing protocol.
 
-## Code availability
+## Data Preprocessing Protocol
 
-The source code and experimental resources are intended for repository release at:
+The experiment uses a leakage-safe, fold-wise preprocessing pipeline. All preprocessing operations are fitted only on the training fold and then applied to the corresponding validation fold.
 
-https://github.com/Zaitinkhuma/BSSMOTE_OpenML_Reproducible
+### 1. Dataset loading
+
+- Benchmark datasets are loaded from OpenML using the predefined OpenML dataset IDs.
+- Each dataset is converted into a feature matrix `X` and target vector `y`.
+- Feature column names are converted to strings and stripped of extra spaces.
+- Dataset metadata are recorded, including:
+  - dataset name;
+  - OpenML ID;
+  - number of instances;
+  - number of original features;
+  - imbalance ratio;
+  - imbalance-ratio category;
+  - feature-count interval.
+
+### 2. Target construction and label standardization
+
+- All datasets are converted to binary classification tasks.
+- If the original target is already binary:
+  - the minority class is encoded as `1`;
+  - the majority class is encoded as `0`.
+- If the dataset is multiclass:
+  - a predefined minority-vs-rest rule is used where specified;
+  - otherwise, the rarest class is treated as the minority class and all remaining classes are grouped as the majority class.
+- For numeric regression-style targets in selected datasets:
+  - the mean target value is used as the threshold;
+  - values below or equal to the mean and values above the mean are converted into two classes;
+  - the final minority class is encoded as `1` and the majority class as `0`.
+- The imbalance ratio is computed after final binary target construction.
+
+### 3. Feature-count and imbalance grouping
+
+- Datasets are grouped by feature-count interval:
+  - `Features <= 10`;
+  - `10 < Features <= 30`;
+  - `Features > 30`.
+- Imbalance-ratio categories are assigned as:
+  - Low: `IR <= 5`;
+  - Medium: `5 < IR <= 20`;
+  - Extreme: `IR > 20`.
+
+### 4. Cross-validation split
+
+- Stratified 5-fold cross-validation is used.
+- Stratification preserves the class distribution in each fold.
+- The random seed is fixed at `42` for reproducibility.
+- For each fold:
+  - the training fold is used for fitting preprocessing and oversampling;
+  - the validation fold is only transformed and evaluated;
+  - no validation-fold information is used during preprocessing or oversampling.
+
+### 5. Dynamic feature-type detection
+
+- Feature types are detected separately within each training fold.
+- A feature is treated as numerical if:
+  - it already has a numeric dtype; or
+  - at least 98% of its values can be converted to numeric.
+- Remaining features are treated as categorical.
+
+### 6. Missing-value handling
+
+- Numerical missing values are imputed using the median value from the training fold only.
+- If the training-fold median is unavailable, the fallback value `0.0` is used.
+- Categorical missing values are replaced with the string `"missing"`.
+- The same training-fold imputation values are applied to the validation fold.
+
+### 7. Numerical feature scaling
+
+- Numerical features are scaled using MinMax scaling.
+- The scaler is fitted only on the training fold.
+- The learned minimum and maximum values from the training fold are used to transform the validation fold.
+- The transformed numerical values are scaled to the range `[0, 1]`.
+
+### 8. Categorical feature encoding
+
+- Categorical features are encoded using one-hot encoding.
+- The encoder is fitted only on the training fold.
+- Unknown categories in the validation fold are ignored using `handle_unknown="ignore"`.
+- This prevents validation-fold categories from influencing the training process.
+
+### 9. Column transformation
+
+- Numerical and categorical transformations are combined using a `ColumnTransformer`.
+- Only selected numerical and categorical columns are retained.
+- Transformed feature names are stored for reproducibility.
+- The transformed feature matrix is converted to dense `float64` format.
+
+### 10. Oversampling protocol
+
+- Oversampling is applied only after fold-wise preprocessing.
+- Oversamplers are fitted only on the preprocessed training fold.
+- The validation fold is never oversampled.
+- The no-oversampling baseline keeps the original preprocessed training fold unchanged.
+- For standard oversamplers, the neighborhood size is adjusted dynamically based on the number of minority samples.
+- If a sampler fails or there are too few minority samples, the original training fold is retained and the failure reason is logged.
+
+### 11. Deep tabular baseline preprocessing
+
+- CTGAN and TVAE are used only for the `Features > 30` interval.
+- They are treated as additional comparisons and are excluded from Friedman, Holm/Wilcoxon, and critical-difference analyses.
+- CTGAN and TVAE are trained only on minority-class samples from the training fold.
+- Synthetic samples are generated only for the minority class.
+- Generated values are converted to numeric form, missing generated values are replaced using minority-fold medians, and final synthetic values are clipped to `[0, 1]`.
+- The validation fold remains unchanged.
+
+### 12. Reproducibility and leakage prevention
+
+- All random seeds are fixed using `SEED = 42`.
+- Preprocessing objects are never fitted on validation data.
+- Oversampling is never applied before cross-validation.
+- Oversampling is never applied to validation folds.
+- Fold-wise preprocessing logs are saved for audit and reproducibility.
+
