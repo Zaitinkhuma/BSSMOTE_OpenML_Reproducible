@@ -88,24 +88,6 @@ The benchmark datasets used in this repository are grouped by feature-count inte
 | Optdigits | [980](https://www.openml.org/d/980) | 5620 | 64 | 8.8252 | Medium | Features > 30 | 5048 | 572 |
 | Satellite | [40900](https://www.openml.org/d/40900) | 5100 | 36 | 67.0 | Extreme | Features > 30 | 5025 | 75 |
 
-### Dataset Grouping Criteria
-
-The feature intervals are defined as follows:
-
-| Feature Interval | Definition |
-|---|---|
-| Features <= 10 | Datasets with 10 or fewer input features |
-| 10 < Features <= 30 | Datasets with more than 10 and up to 30 input features |
-| Features > 30 | Datasets with more than 30 input features |
-
-The imbalance-ratio categories are defined as follows:
-
-| IR Category | Definition |
-|---|---|
-| Low | IR <= 5:1 |
-| Medium | 5:1 < IR <= 20:1 |
-| Extreme | IR > 20:1 |
-
 ### Notes
 
 - All datasets are publicly available from OpenML.
