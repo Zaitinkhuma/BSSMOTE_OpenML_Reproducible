@@ -41,14 +41,12 @@ The notebook dynamically generates the following additional files from the curre
 - `bssmote_noise_sensitivity_dynamic.csv`
 - `bssmote_svm_margin_sensitivity_dynamic.csv`
 
-Only the requested figures are generated at 300 dpi:
+The following figures are generated at 300 dpi:
 - average synthetic generation time per sample by feature interval, with log-scaled y-axis;
 - BSSMOTE demonstration figures;
 - noise-scale and SVM-margin sensitivity figures;
 - critical-difference diagrams;
 - before/after class-distribution figures, with log-scaled y-axis.
-
-Metric boxplots, mean metric bar plots, deep metric comparison plots, and synthetic-count plots are removed/disabled.
 
 ## BSSMOTE hyperparameter configurations
 
