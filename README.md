@@ -72,7 +72,7 @@ The benchmark datasets used in this repository are grouped by feature-count inte
 | Dataset | OpenML ID | Instances | Features | IR | IR Category | Feature Interval | Majority Count | Minority Count |
 |---|---:|---:|---:|---:|---|---|---:|---:|
 | Blood-transfusion | [1464](https://www.openml.org/d/1464) | 748 | 4 | 3.20 | Low | Features <= 10 | 570 | 178 |
-| Haberman | [43](https://www.openml.org/d/43) | 306 | 3 | 2.7778 | Low | Features <= 10 | 225 | 81 |
+| Haberman | [43](https://www.openml.org/d/43) | 306 | 3 | 2.78 | Low | Features <= 10 | 225 | 81 |
 | Mammography | [310](https://www.openml.org/d/310) | 11183 | 6 | 42.01 | Extreme | Features <= 10 | 10923 | 260 |
 | Pulsar (HTRU2) | [45558](https://www.openml.org/d/45558) | 17898 | 8 | 9.92 | Medium | Features <= 10 | 16259 | 1639 |
 | Wholesale-customers | [1511](https://www.openml.org/d/1511) | 440 | 8 | 2.10 | Low | Features <= 10 | 298 | 142 |
